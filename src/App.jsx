@@ -9,31 +9,32 @@ function App() {
     <div className="bg-page">
       <HeaderLayout/>
       <div className="container">
-          <div className="px-5 md:px-2"></div>
-        <div className="flex flex-col justify-center items-center gap-8">
-            <BannerComponent
-                subtitle="Chateemos"
-                title="¡Es hora de trabajar juntos!"
-                button="Escribenos un mail"
-                url="#"/>
-            <PostItemComponent
-                url="#"
-                button="Más información"
-                title="Desarrollo profesional de sitios web y eCommerce"
-                subtitle="Desarrollo y diseño web"
-                description="Nos especializamos en el desarrollo de sitios web y eCommerce profesionales que ayudan a nuestros clientes a impulsar su presencia en línea y a aumentar sus ventas."/>
-            <PostItemComponent
-                url="#"
-                button="Ver más"
-                title="Costos y calidad en el desarrollo web: ¿Qué esperar?"
-                subtitle="6 de febrero de 2023"
-                description="El desarrollo web es una inversión importante para cualquier empresa que quiera tener una presencia en línea sólida. Sin embargo, los costos y la calidad"/>
-            <PortafolioItemComponent
-                url="#"
-                image=""
-                title="Diseño y desarrollo de el sitio web de Permanex"
-                date="10 de marzo de 2021"/>
-        </div>
+          <div className="px-5 md:px-2">
+              <div className="flex flex-col justify-center items-center gap-8">
+                  <BannerComponent
+                      subtitle="Chateemos"
+                      title="¡Es hora de trabajar juntos!"
+                      button="Escribenos un mail"
+                      url="#"/>
+                  <PostItemComponent
+                      url="#"
+                      button="Más información"
+                      title="Desarrollo profesional de sitios web y eCommerce"
+                      subtitle="Desarrollo y diseño web"
+                      description="Nos especializamos en el desarrollo de sitios web y eCommerce profesionales que ayudan a nuestros clientes a impulsar su presencia en línea y a aumentar sus ventas."/>
+                  <PostItemComponent
+                      url="#"
+                      button="Ver más"
+                      title="Costos y calidad en el desarrollo web: ¿Qué esperar?"
+                      subtitle="6 de febrero de 2023"
+                      description="El desarrollo web es una inversión importante para cualquier empresa que quiera tener una presencia en línea sólida. Sin embargo, los costos y la calidad"/>
+                  <PortafolioItemComponent
+                      url="#"
+                      image=""
+                      title="Diseño y desarrollo de el sitio web de Permanex"
+                      date="10 de marzo de 2021"/>
+              </div>
+          </div>
       </div>
       <FooterLayout/>
     </div>

@@ -25,6 +25,6 @@
         @apply bg-pllx-gray-dark text-white hover:bg-pllx-gray hover:drop-shadow-pllx-gray hover:scale-105 rounded-2xl w-full flex flex-col md:flex-row justify-between items-center transition duration-300;
     }
     .item-nav{
-        @apply font-clash text-pllx-blue text-3xl sm:text-5xl;
+        @apply font-clash text-pllx-blue text-5xl md:text-6xl;
     }
 }
