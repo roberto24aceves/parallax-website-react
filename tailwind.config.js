@@ -12,18 +12,17 @@ export default {
       colors:{
         'pllx-white': '#E8E8E8',
         'pllx-gray': '#29292F',
+        'pllx-gray-dark': '#1E1E1E',
         'pllx-black': '#18181A',
-        'pllx-yellow':'#F8DE22',
-        'pllx-orange':'#F94C10',
-        'pllx-red':'#C70039',
-        'pllx-red-dark':'#900C3F',
+        'pllx-blue':'#4700D8',
       },
       fontFamily:{
           'switzer': 'Switzer',
           'clash': 'Clash Display',
       },
       dropShadow: {
-        'pllx': '0 0 35px rgba(249, 76, 16, 0.5)',
+        'pllx-blue': '0 0 35px rgba(71, 0, 216, 0.5)',
+        'pllx-gray': '0 0 35px rgba(41, 41, 47, 0.5)',
       }
     },
   },

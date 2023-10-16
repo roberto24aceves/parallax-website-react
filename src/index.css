@@ -10,21 +10,21 @@
         @apply px-5 py-2 my-1 rounded-full;
     }
     .btn-primary{
-        @apply bg-pllx-gray text-base text-white font-switzer uppercase;
+        @apply bg-pllx-gray hover:bg-pllx-gray-dark text-base text-white font-switzer transition duration-300;
     }
     .btn-banner{
-        @apply bg-white text-pllx-red text-xl sm:text-2xl font-medium font-clash normal-case;
+        @apply bg-white text-pllx-blue text-xl sm:text-2xl font-medium font-clash normal-case;
     }
     .banner{
-        @apply w-full bg-gradient-to-l from-pllx-red to-pllx-orange  hover:bg-gradient-to-r hover:from-pllx-white hover:to-white rounded-2xl px-5 py-10 transition-all ease-in-out duration-300;
+        @apply w-full bg-gradient-to-t from-pllx-blue to-indigo-700 hover:drop-shadow-pllx-blue hover:scale-105 rounded-2xl px-1.5 py-14 transition duration-300;
     }
-    .banner-content{
-        @apply flex flex-col justify-center items-center gap-5 w-80 sm:w-2/3 font-clash text-white text-center;
+    .postItem{
+        @apply bg-pllx-gray-dark hover:bg-pllx-gray hover:drop-shadow-pllx-gray hover:scale-105 flex flex-col w-full rounded-2xl px-6 py-8 md:px-10 md:py-6 transition duration-300;
     }
-    .banner-content h3{
-        @apply font-medium text-xl transition-all duration-300;
+    .postPortafolio{
+        @apply bg-pllx-gray-dark text-white hover:bg-pllx-gray hover:drop-shadow-pllx-gray hover:scale-105 rounded-2xl w-full flex flex-col md:flex-row justify-between items-center transition duration-300;
     }
-    .banner-content h2{
-        @apply font-medium text-4xl sm:text-6xl transition-all duration-300;
+    .item-nav{
+        @apply font-clash text-pllx-blue text-3xl sm:text-5xl;
     }
 }
