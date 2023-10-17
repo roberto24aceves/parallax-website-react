@@ -1,4 +1,4 @@
-export default function PostItemComponent({title,subtitle,description,button,url}){
+const PostItemComponent = ({title,subtitle,description,button,url}) => {
     return (
         <article className="postItem group">
             <div className="flex justify-end w-full sm:-mb-8">
@@ -16,3 +16,4 @@ export default function PostItemComponent({title,subtitle,description,button,url
         </article>
     )
 }
+export default PostItemComponent;

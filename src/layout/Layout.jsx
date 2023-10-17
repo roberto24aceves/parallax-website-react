@@ -1,7 +1,7 @@
 import HeaderLayout from "./HeaderLayout.jsx";
 import FooterLayout from "./FooterLayout.jsx";
 
-export default function Layout({children }){
+const Layout = ({children }) => {
     return(
         <div className="max-h-screen px-0">
             <HeaderLayout/>
@@ -12,3 +12,4 @@ export default function Layout({children }){
         </div>
     )
 }
+export default Layout;

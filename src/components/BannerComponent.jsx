@@ -1,4 +1,4 @@
-export default function BannerComponent({title,subtitle, button, url}) {
+const BannerComponent = ({title,subtitle, button, url}) => {
     return (
         <div className="banner">
             <div className="flex flex-col justify-center items-center">
@@ -11,3 +11,4 @@ export default function BannerComponent({title,subtitle, button, url}) {
         </div>
     )
 }
+export default BannerComponent;

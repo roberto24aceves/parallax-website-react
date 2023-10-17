@@ -3,7 +3,7 @@ import menuopen from '../assets/img/menu.svg';
 import menuclose from '../assets/img/close.svg';
 import {Link} from 'react-router-dom';
 import { gsap } from "gsap";
-export default function HeaderLayout() {
+const HeaderLayout = () => {
     const handleToggleMenu = () =>{
         let menu = document.getElementById('menu-container');
         let body = document.body;
@@ -76,3 +76,4 @@ export default function HeaderLayout() {
         </div>
     )
 }
+export default HeaderLayout;

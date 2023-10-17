@@ -1,5 +1,5 @@
 import idefault from '../assets/img/mockup.png'
-export default function PortafolioItemComponent({title,date,url,image}){
+const PortafolioItemComponent = ({title,date,url,image}) => {
     return (
         <article className="postPortafolio">
             <div className="flex flex-col gap-3 md:w-1/2 xl:w-1/2 px-6 py-10 md:px-14 md:py-10 order-last md:order-first">
@@ -13,3 +13,4 @@ export default function PortafolioItemComponent({title,date,url,image}){
         </article>
     )
 }
+export default PortafolioItemComponent;

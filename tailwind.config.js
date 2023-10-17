@@ -11,6 +11,7 @@ export default {
     extend: {
       colors:{
         'pllx-white': '#E8E8E8',
+        'pllx-gray-light': '#474752',
         'pllx-gray': '#29292F',
         'pllx-gray-dark': '#1E1E1E',
         'pllx-black': '#18181A',

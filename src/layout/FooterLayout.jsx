@@ -1,6 +1,6 @@
 import logo from '../assets/img/logo.png';
 import {Link} from "react-router-dom";
-export default function FooterLayout() {
+const FooterLayout = () => {
     return (
         <footer className="container pt-10 pb-10 mb-0">
             <div className="flex flex-col sm:flex-row gap-5 justify-center sm:justify-between items-center">
@@ -15,3 +15,4 @@ export default function FooterLayout() {
 
         )
 }
+export default FooterLayout;

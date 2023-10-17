@@ -3,11 +3,13 @@ import BannerComponent from "../components/BannerComponent.jsx";
 import PortafolioItemComponent from "../components/PortafolioItemComponent.jsx";
 import PostItemComponent from "../components/PostItemComponent.jsx";
 import Layout from "../layout/Layout.jsx";
+import SliderComponent from "../components/SliderComponent.jsx";
 
 const Home = () => {
   return (
       <Layout>
           <div className="flex flex-col justify-center items-center gap-8">
+              <SliderComponent/>
               <BannerComponent
                   subtitle="Chateemos"
                   title="¡Es hora de trabajar juntos!"
