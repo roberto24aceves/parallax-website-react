@@ -1,6 +1,6 @@
 export default function PostItemComponent({title,subtitle,description,button,url}){
     return (
-        <div className="postItem group">
+        <article className="postItem group">
             <div className="flex justify-end w-full sm:-mb-8">
                 <a className="btn btn-primary group-hover:bg-pllx-gray-dark" href={url}>{button}</a>
             </div>
@@ -13,6 +13,6 @@ export default function PostItemComponent({title,subtitle,description,button,url
                     <p className="text-white font-switzer text-base lg:w-7/12 line-clamp-3 md:line-clamp-6">{description}</p>
                 </div>
             </div>
-        </div>
+        </article>
     )
 }

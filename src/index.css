@@ -3,8 +3,23 @@
 @tailwind utilities;
 
 @layer components{
-    .bg-page{
-        @apply bg-gradient-to-r from-pllx-gray to-pllx-black;
+    .body{
+        @apply bg-pllx-black bg-gradient-to-r from-pllx-gray to-pllx-black;
+    }
+    body::-webkit-scrollbar{
+        width: .7em;
+    }
+    body::-webkit-scrollbar-thumb{
+        background: #4700D8;
+        border-radius: .5em;
+    }
+    *::selection{
+        background: #4700D8;
+        color: #ffffff;
+    }
+    *::-moz-selection{
+        background: #4700D8;
+        color: #ffffff;
     }
     .btn{
         @apply px-5 py-2 my-1 rounded-full;
@@ -26,5 +41,8 @@
     }
     .item-nav{
         @apply font-clash text-pllx-blue text-5xl md:text-6xl;
+    }
+    .taggItem{
+        @apply btn bg-gradient-to-r from-pllx-blue to-pllx-white text-white font-clash text-lg font-medium w-fit animate-bounce;
     }
 }

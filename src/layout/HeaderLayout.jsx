@@ -1,11 +1,14 @@
 import logo from '../assets/img/logo.png';
 import menuopen from '../assets/img/menu.svg';
 import menuclose from '../assets/img/close.svg';
+import {Link} from 'react-router-dom';
 import { gsap } from "gsap";
 export default function HeaderLayout() {
     const handleToggleMenu = () =>{
         let menu = document.getElementById('menu-container');
+        let body = document.body;
         if(menu.classList.contains('hidden')){
+            body.style.overflow = 'hidden';
             gsap.to('#menu-container',{
                 x:-window.innerWidth,
                 opacity:0,
@@ -20,6 +23,7 @@ export default function HeaderLayout() {
                 }
             })
         }else{
+            body.style.overflow = 'auto';
             gsap.to('#menu-container',{
                 x:-window.innerWidth,
                 opacity:1,
@@ -33,12 +37,12 @@ export default function HeaderLayout() {
     return (
         <div>
             <header className="container py-5">
-                <div className="flex justify-between items-center px-5 md:px-2">
-                    <a href="#">
+                <div className="flex justify-between items-center px-4 md:px-16">
+                    <Link to={"/"}>
                         <img src={logo} className="w-32" alt=""/>
-                    </a>
+                    </Link>
                     <div className="flex items-center gap-6">
-                        <a href="#" className="btn btn-primary uppercase hidden sm:block">Portafolio</a>
+                        <Link to={"/portafolio"} className="btn btn-primary uppercase hidden sm:block">Portafolio</Link>
                         <img onClick={handleToggleMenu} src={menuopen} className="w-10 h-10 cursor-pointer" alt=""/>
                     </div>
                 </div>
@@ -48,17 +52,17 @@ export default function HeaderLayout() {
                     <div className="flex h-full flex-col justify-between px-4 md:px-16 py-5">
                         <div className="flex justify-end items-center">
                             <div className="flex items-center">
-                                <img onClick={handleToggleMenu} src={menuclose} className="w-10 h-10 cursor-pointer" alt=""/>
+                                <img onClick={handleToggleMenu} src={menuclose} className="w-10 h-10 cursor-pointer hover:drop-shadow-pllx-blue transition-all duration-300" alt=""/>
                             </div>
                         </div>
-                        <div className="flex">
+                        <nav className="flex">
                             <ul className="flex flex-col justify-center gap-4">
-                                <li className="item-nav">Inicio</li>
-                                <li className="item-nav">Servicios</li>
-                                <li className="item-nav">Portafolio</li>
-                                <li className="item-nav">Contacto</li>
+                                <li className="item-nav"><Link className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" to={"/"}>Inicio</Link></li>
+                                <li className="item-nav"><Link className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" to={"/servicios"}>Servicios</Link></li>
+                                <li className="item-nav"><Link className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" to={"/portafolio"}>Portafolio</Link></li>
+                                <li className="item-nav"><Link className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" to={"/contacto"}>Contacto</Link></li>
                             </ul>
-                        </div>
+                        </nav>
                         <div className="flex">
                             <ul className="flex font-clash text-pllx-blue text-xl gap-4">
                                 <li><a className="border-b border-pllx-blue hover:text-pllx-white hover:bg-pllx-blue transition duration-300" href="#">Facebook</a></li>
