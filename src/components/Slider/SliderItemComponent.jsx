@@ -1,5 +1,6 @@
 import idefault from '../../assets/img/mockup.png'
 const SliderItemComponent = ({title,location}) =>{
+
     return(
         <div className="w-full group cursor-pointer hover:scale-95 transition-all duration-500">
             <img className="w-full object-cover rounded-2xl" src={idefault} alt=""/>
