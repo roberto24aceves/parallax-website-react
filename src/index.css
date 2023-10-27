@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer components{
+    /*General Elements*/
     .body{
         @apply bg-pllx-black bg-gradient-to-r from-pllx-gray to-pllx-black;
     }
@@ -27,22 +28,49 @@
     .btn-primary{
         @apply bg-pllx-gray hover:bg-pllx-gray-dark text-base text-white font-switzer transition duration-300;
     }
+    /*Banner*/
     .btn-banner{
         @apply bg-white text-pllx-blue text-xl sm:text-2xl font-medium font-clash normal-case;
     }
     .banner{
         @apply w-full bg-gradient-to-t from-pllx-blue to-indigo-700 hover:drop-shadow-pllx-blue hover:scale-105 rounded-2xl px-1.5 py-14 transition duration-300;
     }
+    /*Post*/
     .postItem{
         @apply bg-pllx-gray-dark hover:bg-pllx-gray hover:drop-shadow-pllx-gray hover:scale-105 flex flex-col w-full rounded-2xl px-6 py-8 md:px-10 md:py-6 transition duration-300;
     }
+    /*Portafolio*/
     .postPortafolio{
         @apply bg-pllx-gray-dark text-white hover:bg-pllx-gray hover:drop-shadow-pllx-gray hover:scale-105 rounded-2xl w-full flex flex-col md:flex-row justify-between items-center transition duration-300;
     }
+    /*Navigation*/
     .item-nav{
         @apply font-clash text-pllx-blue text-5xl md:text-6xl;
     }
     .taggItem{
         @apply btn bg-gradient-to-r from-pllx-blue to-pllx-white text-white font-clash text-lg font-medium w-fit animate-bounce;
+    }
+    /*Galery*/
+    .container-gallery{
+        @apply absolute inset-0 origin-center w-full mt-0 mx-auto mb-10 p-10 flex justify-center;
+    }
+    .indicator-gallery{
+        @apply absolute top-0 left-0 w-[5px] h-[5px] bg-white rounded-full transition-all ease-in-out duration-1000;
+    }
+    .gallery-content{
+        @apply flex justify-around w-[1000px] overflow-hidden;
+    }
+    .gallery-item{
+        @apply flex justify-center items-center w-7 h-[400px] rounded mx-5 bg-pllx-black overflow-hidden transition-all ease-in-out duration-1000;
+    }
+    .gallery-item > img{
+        @apply w-[400px] h-full object-cover transform scale-105 ;
+    }
+    /*Cursor Animation*/
+    .cursor-element{
+        @apply fixed w-20 h-20 bg-pllx-white rounded-full transition-transform duration-300 ease-in-out pointer-events-none z-50;
+    }
+    :hover .cursor-element{
+        @apply mix-blend-difference;
     }
 }

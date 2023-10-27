@@ -4,6 +4,7 @@ import PortafolioItemComponent from "../components/PortafolioItemComponent.jsx";
 import PostItemComponent from "../components/PostItemComponent.jsx";
 import Layout from "../layout/Layout.jsx";
 import SliderComponent from "../components/SliderComponent.jsx";
+import GalleryComponent from "../components/GalleryComponent.jsx";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
                   title="¡Es hora de trabajar juntos!"
                   button="Escribenos un mail"
                   url="#"/>
+              <GalleryComponent/>
               <PostItemComponent
                   url="#"
                   button="Más información"
