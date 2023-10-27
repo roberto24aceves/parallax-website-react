@@ -2,7 +2,6 @@ import idefault from '../assets/img/mockup.png'
 import {useRef, useState} from "react";
 
 const GalleryComponent = () =>{
-    const [lastElement,setLastElement] = useState(null);
     const items = [
         {"title":"Proyecto 1"},
         {"title":"Proyecto 2"},
@@ -12,17 +11,25 @@ const GalleryComponent = () =>{
         {"title":"Proyecto 6"},
         {"title":"Proyecto 7"},
         {"title":"Proyecto 8"},
-        {"title":"Proyecto 9"}];
+        {"title":"Proyecto 9"},
+        {"title":"Proyecto 10"},
+        {"title":"Proyecto 11"},
+        {"title":"Proyecto 12"},
+        {"title":"Proyecto 13"},
+        {"title":"Proyecto 14"},
+        {"title":"Proyecto 15"},
+        {"title":"Proyecto 16"},
+        {"title":"Proyecto 17"},
+        {"title":"Proyecto 18"}];
+    const [lastElement,setLastElement] = useState(null);
     const indicator = useRef(null);
     const container = useRef(null);
-    const gitems = document.querySelectorAll('.gallery-item');
 
     const handleUpdateItems = (e) =>{
-        lastElement !== null ? lastElement.style.width = '1.25rem' : null;
-        let element = e.target;
-        setLastElement(element.parentElement);
-        console.log(lastElement);
-        element.parentElement.style.width = '400px';
+        lastElement !== null ? lastElement.style.width = '' : null;
+        let element = e.target.parentElement;
+        setLastElement(element);
+        element.style.width = '400px';
     }
     const handleMoveIndicator = (e) =>{
         let content = container.current;
@@ -30,7 +37,7 @@ const GalleryComponent = () =>{
         ind.style.left = `${e.clientX - content.getBoundingClientRect().left}px`;
     }
     return (
-        <div className="relative m-0 p-0 box-border w-full h-[600px]">
+        <div className="relative m-0 p-10 box-border w-full h-[600px]">
             <div ref={container} className="container-gallery" onMouseMove={handleMoveIndicator}>
                 <div ref={indicator} className="indicator-gallery"></div>
                 <div className="gallery-content">

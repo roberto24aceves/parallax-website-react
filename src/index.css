@@ -8,7 +8,7 @@
         @apply bg-pllx-black bg-gradient-to-r from-pllx-gray to-pllx-black;
     }
     body::-webkit-scrollbar{
-        width: .7em;
+        width: .5em;
     }
     body::-webkit-scrollbar-thumb{
         background: #4700D8;
@@ -52,19 +52,19 @@
     }
     /*Galery*/
     .container-gallery{
-        @apply absolute inset-0 origin-center w-full mt-0 mx-auto mb-10 p-10 flex justify-center;
+        @apply absolute inset-0 origin-center w-full mx-auto flex justify-center;
     }
     .indicator-gallery{
-        @apply absolute top-0 left-0 w-[5px] h-[5px] bg-white rounded-full transition-all ease-in-out duration-1000;
+        @apply absolute top-20 left-0 w-[5px] h-[5px] bg-white rounded-full transition-all ease-in-out duration-1000;
     }
     .gallery-content{
-        @apply flex justify-around w-[1000px] overflow-hidden;
+        @apply flex w-full justify-center items-center overflow-hidden gap-3;
     }
     .gallery-item{
-        @apply flex justify-center items-center w-7 h-[400px] rounded mx-5 bg-pllx-black overflow-hidden transition-all ease-in-out duration-1000;
+        @apply flex justify-center items-center w-10 h-[400px] rounded bg-pllx-black overflow-hidden transition-all ease-in-out duration-1000;
     }
     .gallery-item > img{
-        @apply w-[400px] h-full object-cover transform scale-105 ;
+        @apply w-[400px] h-full object-cover transform hover:scale-105 transition-all duration-300;
     }
     /*Cursor Animation*/
     .cursor-element{
@@ -72,5 +72,12 @@
     }
     :hover .cursor-element{
         @apply mix-blend-difference;
+    }
+    /*Portafolio Gallery*/
+    .category-elements{
+        @apply flex justify-center gap-3 p-3;
+    }
+    .cItems{
+        @apply btn border border-pllx-white w-fit font-switzer font-medium text-pllx-white hover:bg-pllx-white hover:text-pllx-black transition-all duration-300 ease-in-out;
     }
 }
