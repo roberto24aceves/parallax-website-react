@@ -35,7 +35,7 @@ const GalleryComponent = () =>{
                 <div className="gallery-content">
                     {
                         items.map((item, index) => (
-                            <div key={index} className="gallery-item hover:w-96">
+                            <div key={index} className={`${index >= 6 ? 'hidden md:block':''} gallery-item hover:w-full md:hover:w-96 hover:my-2`}>
                                 <img className="" src={idefault} alt=""/>
                             </div>
                         ))

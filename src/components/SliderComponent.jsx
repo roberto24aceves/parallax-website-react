@@ -13,7 +13,7 @@ const SliderComponent = () =>{
             <motion.div drag="x" dragConstraints={{right:0, left:-rleft}} className="flex gap-5">
                 {
                     items.map((item,index)=>(
-                        <div key={index} className="item-slider min-w-full md:min-w-[80%]">
+                        <div key={index} className="item-slider min-w-full md:min-w-[70%]">
                             <SliderItemComponent title={item.title} location="Mérida, Yucatán, México."/>
                         </div>
                     ))
