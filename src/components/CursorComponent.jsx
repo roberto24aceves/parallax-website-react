@@ -11,6 +11,8 @@ const CursorComponent = () =>{
     useEffect(()=>{
         document.body.addEventListener('mousemove',handleMoveCursor);
     },[])
-    return (<div ref={cursor} className="cursor-element"></div>)
+    return (
+        <div ref={cursor} className="cursor-element"></div>
+    )
 }
 export default CursorComponent;

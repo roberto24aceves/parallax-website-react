@@ -74,7 +74,7 @@
         @apply scale-150;
     }
     .cursor-element{
-        @apply fixed w-5 h-5 scale-100 bg-pllx-white rounded-full transition-transform duration-300 ease-in-out pointer-events-none z-50;
+        @apply fixed w-3 h-3 scale-100 bg-pllx-white rounded-full transition-transform duration-300 ease-in-out pointer-events-none z-50;
     }
     :hover .cursor-element{
         @apply mix-blend-difference;

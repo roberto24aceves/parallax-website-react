@@ -21,16 +21,8 @@ const GalleryComponent = () =>{
         {"title":"Proyecto 16"},
         {"title":"Proyecto 17"},
         {"title":"Proyecto 18"}];
-    const [lastElement,setLastElement] = useState(null);
     const indicator = useRef(null);
     const container = useRef(null);
-
-    const handleUpdateItems = (e) =>{
-        lastElement !== null ? lastElement.style.width = '' : null;
-        let element = e.target.parentElement;
-        setLastElement(element);
-        element.style.width = '400px';
-    }
     const handleMoveIndicator = (e) =>{
         let content = container.current;
         let ind = indicator.current;
@@ -43,8 +35,8 @@ const GalleryComponent = () =>{
                 <div className="gallery-content">
                     {
                         items.map((item, index) => (
-                            <div key={index} className="gallery-item" onMouseEnter={handleUpdateItems}>
-                                <img src={idefault} alt=""/>
+                            <div key={index} className="gallery-item hover:w-96">
+                                <img className="" src={idefault} alt=""/>
                             </div>
                         ))
                     }
