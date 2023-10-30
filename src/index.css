@@ -5,7 +5,7 @@
 @layer components{
     /*General Elements*/
     .body{
-        @apply bg-pllx-black bg-gradient-to-r from-pllx-gray to-pllx-black;
+        @apply bg-pllx-black bg-gradient-to-r from-pllx-gray to-pllx-black cursor-none;
     }
     body::-webkit-scrollbar{
         width: .5em;
@@ -67,17 +67,23 @@
         @apply w-[400px] h-full object-cover transform hover:scale-105 transition-all duration-300;
     }
     /*Cursor Animation*/
+    a:hover{
+        @apply cursor-none;
+    }
     .cursor-element{
-        @apply fixed w-20 h-20 bg-pllx-white rounded-full transition-transform duration-300 ease-in-out pointer-events-none z-50;
+        @apply scale-150;
+    }
+    .cursor-element{
+        @apply fixed w-5 h-5 scale-100 bg-pllx-white rounded-full transition-transform duration-300 ease-in-out pointer-events-none z-50;
     }
     :hover .cursor-element{
         @apply mix-blend-difference;
     }
     /*Portafolio Gallery*/
     .category-elements{
-        @apply flex justify-center gap-3 p-3;
+        @apply flex flex-wrap justify-center gap-3 p-3;
     }
     .cItems{
-        @apply btn border border-pllx-white w-fit font-switzer font-medium text-pllx-white hover:bg-pllx-white hover:text-pllx-black transition-all duration-300 ease-in-out;
+        @apply btn border border-pllx-white w-full sm:w-fit text-center font-switzer font-medium text-pllx-white hover:bg-pllx-white hover:text-pllx-black transition-all duration-300 ease-in-out;
     }
 }

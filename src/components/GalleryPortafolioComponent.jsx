@@ -9,7 +9,7 @@ const GalleryPortafolioComponent = () =>{
                 <div className="cItems">SEO</div>
             </div>
             <div className="flex flex-wrap">
-                <div className="basis-1/3 py-4 px-3 rounded-xl hover:scale-105 transition-all duration-300">
+                <div className="w-full md:basis-1/2 lg:basis-1/3 py-4 px-3 rounded-xl hover:scale-105 transition-all duration-300">
                     <img className="" src={idefault} alt=""/>
                     <div className="py-4">
                         <h3 className="font-medium font-clash text-2xl text-pllx-white">Permanex</h3>
@@ -18,7 +18,7 @@ const GalleryPortafolioComponent = () =>{
                         <a className="border-b border-white text-pllx-white font-switzer font-medium mt-5 py-1" href="#">Ver proyecto</a>
                     </div>
                 </div>
-                <div className="basis-1/3 py-4 px-3 rounded-xl hover:scale-105 transition-all duration-300">
+                <div className="w-full md:basis-1/2 lg:basis-1/3 py-4 px-3 rounded-xl hover:scale-105 transition-all duration-300">
                     <img className="" src={idefault} alt=""/>
                     <div className="py-4">
                         <h3 className="font-medium font-clash text-2xl text-pllx-white">Permanex</h3>
@@ -27,7 +27,7 @@ const GalleryPortafolioComponent = () =>{
                         <a className="border-b border-white text-pllx-white font-switzer font-medium mt-5 py-1" href="#">Ver proyecto</a>
                     </div>
                 </div>
-                <div className="basis-1/3 py-4 px-3 rounded-xl hover:scale-105 transition-all duration-300">
+                <div className="w-full md:basis-1/2 lg:basis-1/3 py-4 px-3 rounded-xl hover:scale-105 transition-all duration-300">
                     <img className="" src={idefault} alt=""/>
                     <div className="py-4">
                         <h3 className="font-medium font-clash text-2xl text-pllx-white">Permanex</h3>

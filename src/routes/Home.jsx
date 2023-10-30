@@ -11,6 +11,7 @@ const Home = () => {
   return (
       <Layout>
           <div className="flex flex-col justify-center items-center gap-8">
+              <SliderComponent/>
               <GalleryPortafolioComponent/>
               <BannerComponent
                   subtitle="Chateemos"
