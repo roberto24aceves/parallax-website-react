@@ -7,6 +7,7 @@ import SliderComponent from "../components/SliderComponent.jsx";
 import GalleryComponent from "../components/GalleryComponent.jsx";
 import GalleryPortafolioComponent from "../components/GalleryPortafolioComponent.jsx";
 import PreviewProjectsComponent from "../components/PreviewProjectsComponent.jsx";
+import AccordionComponent from "../components/AccordionComponent.jsx";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
           <div className="flex flex-col justify-center items-center gap-8">
               <SliderComponent/>
               <PreviewProjectsComponent/>
+              <AccordionComponent/>
               <GalleryPortafolioComponent/>
               <BannerComponent
                   subtitle="Chateemos"
