@@ -47,8 +47,8 @@
     .item-nav{
         @apply font-clash text-pllx-blue text-5xl md:text-6xl;
     }
-    .taggItem{
-        @apply btn bg-gradient-to-r from-pllx-blue to-pllx-white text-white font-clash text-lg font-medium w-fit animate-bounce;
+    .b-animate{
+        @apply btn bg-gradient-to-r from-pllx-blue to-pllx-white text-white font-clash text-lg font-medium w-fit;
     }
     /*Galery*/
     .container-gallery{
@@ -88,12 +88,12 @@
     }
     /*Accordion*/
     .accordion-item{
-        @apply flex flex-col justify-center items-center gap-5 my-3;
+        @apply flex flex-col justify-center items-center;
     }
     .accordion-title{
-        @apply bg-gradient-to-r from-pllx-gray-dark to-pllx-gray rounded-xl text-center text-white font-clash text-lg p-4 md:px-10 w-full md:w-2/3 flex justify-between items-center;
+        @apply bg-gradient-to-r from-pllx-gray-dark to-pllx-gray rounded-xl text-center text-white font-clash text-lg p-4 md:px-10 w-full md:w-3/4 flex justify-between items-center;
     }
     .accordion-content{
-        @apply bg-pllx-gray rounded-lg text-white font-switzer p-4 md:px-10 w-full md:w-2/3;
+        @apply bg-pllx-gray rounded-lg text-white font-switzer p-4 md:px-10 w-full md:w-3/4;
     }
 }
