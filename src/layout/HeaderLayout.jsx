@@ -52,7 +52,7 @@ const HeaderLayout = () => {
                     <div className="flex h-full flex-col justify-between px-4 md:px-16 py-5">
                         <div className="flex justify-end items-center">
                             <div className="flex items-center">
-                                <img onClick={handleToggleMenu} src={menuclose} className="w-10 h-10 cursor-pointer hover:drop-shadow-pllx-blue transition-all duration-300" alt=""/>
+                                <img onClick={handleToggleMenu} src={menuclose} className="w-10 h-10 hover:drop-shadow-pllx-blue transition-all duration-300 cursor-pointer" alt=""/>
                             </div>
                         </div>
                         <nav className="flex">

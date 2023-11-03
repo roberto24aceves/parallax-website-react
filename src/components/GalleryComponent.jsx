@@ -42,7 +42,7 @@ const GalleryComponent = () =>{
                 <div className="gallery-content">
                     {
                         items.map((item, index) => (
-                            <div onMouseEnter={handleHoverImage} key={index} className={`${index >= 6 ? 'hidden md:block':''} gallery-item hover:opacity-70 md:hover:w-96`}>
+                            <div onMouseEnter={handleHoverImage} key={index} className={`${index >= 6 ? 'hidden md:block':''} gallery-item hover:opacity-70 md:hover:w-96 cursor-pointer`}>
                                 <img className="" src={idefault} alt=""/>
                             </div>
                         ))

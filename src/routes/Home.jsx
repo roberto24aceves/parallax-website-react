@@ -1,48 +1,58 @@
-
-import BannerComponent from "../components/BannerComponent.jsx";
-import PortafolioItemComponent from "../components/PortafolioItemComponent.jsx";
-import PostItemComponent from "../components/PostItemComponent.jsx";
 import Layout from "../layout/Layout.jsx";
-import SliderComponent from "../components/SliderComponent.jsx";
-import GalleryComponent from "../components/GalleryComponent.jsx";
-import GalleryPortafolioComponent from "../components/GalleryPortafolioComponent.jsx";
+import ButtonAnimateComponent from "../components/ButtonAnimateComponent.jsx";
 import PreviewProjectsComponent from "../components/PreviewProjectsComponent.jsx";
-import AccordionComponent from "../components/AccordionComponent.jsx";
+import FormContactComponent from "../components/FormContactComponent.jsx";
+import TextScrollComponent from "../components/TextScrollComponent.jsx";
+import PostItemComponent from "../components/PostItemComponent.jsx";
 
-const Home = () => {
-  return (
-      <Layout>
-          <div className="flex flex-col justify-center items-center gap-8">
-              <SliderComponent/>
-              <PreviewProjectsComponent/>
-              <AccordionComponent/>
-              <GalleryPortafolioComponent/>
-              <BannerComponent
-                  subtitle="Chateemos"
-                  title="¡Es hora de trabajar juntos!"
-                  button="Escribenos un mail"
-                  url="#"/>
-              <GalleryComponent/>
-              <PostItemComponent
-                  url="#"
-                  button="Más información"
-                  title="Desarrollo profesional de sitios web y eCommerce"
-                  subtitle="Desarrollo y diseño web"
-                  description="Nos especializamos en el desarrollo de sitios web y eCommerce profesionales que ayudan a nuestros clientes a impulsar su presencia en línea y a aumentar sus ventas."/>
-              <PostItemComponent
-                  url="#"
-                  button="Ver más"
-                  title="Costos y calidad en el desarrollo web: ¿Qué esperar?"
-                  subtitle="6 de febrero de 2023"
-                  description="El desarrollo web es una inversión importante para cualquier empresa que quiera tener una presencia en línea sólida. Sin embargo, los costos y la calidad"/>
-              <PortafolioItemComponent
-                  url="#"
-                  image=""
-                  title="Diseño y desarrollo de el sitio web de Permanex"
-                  date="10 de marzo de 2021"/>
-          </div>
-      </Layout>
-  )
+const Home = () =>{
+
+    return(
+        <Layout>
+            <div className="flex flex-col justify-center items-center gap-5">
+                <section className="flex flex-col justify-center items-center gap-6 h-[450px]">
+                    <ButtonAnimateComponent content={"Parallax"}/>
+                    <h1 className="text-white font-clash font-semibold text-5xl uppercase text-center w-2/3">Somos un equipo de desarrollo, creamos sitios web innovadores y ayudamos a las empresas a comunicarse de manera efectiva.</h1>
+                </section>
+                <TextScrollComponent text={"Parallax"}/>
+                <section>
+                    <PreviewProjectsComponent
+                        title="Equipo Parallax"
+                        content="Nuestro equipo esta conformado por diseñadores, mercadologos y desarrolladores, nuestra experiencia con diversas marcas nos inspiro a crear algo propio y con nuestro estilo, queremos innovar y ser referentes en el mercado."
+                        tags={["SEO","Diseño Web", "Desarrollo web"]}/>
+                </section>
+                <section className="flex flex-col py-10 gap-5">
+                    <div className="my-3">
+                        <h2 className="font-clash text-white font-semibold text-5xl uppercase">Conoce nuestro <br/> proceso.</h2>
+                        <p className="font-switzer text-white">Conoce acontinuacion nuestro proceso para crear un sitio web.</p>
+                    </div>
+                    <PostItemComponent
+                        title="Reunion de exploración"
+                        subtitle="Etapa 1"
+                        description="Aqui conocemos más hacerca de ti y de tu negocio, esto nos ayuda a conocer tu expectativa y alinearnos para determinar cuales seran las metas del proyecto."
+                        button="1 - 2hrs"
+                        url="#" />
+                    <PostItemComponent
+                        title="Estrategia de contenido y Diseño ux"
+                        subtitle="Etapa 2"
+                        description="Aqui diseñamos la ruta que seguira el usuario y los puntos claves del sitio web, asi mismo definimos como sera la comunicacion con el usuario para conocer tu producto o servicio."
+                        button="1 - 2 semanas"
+                        url="#" />
+                    <PostItemComponent
+                        title="Diseño e identidad visual"
+                        subtitle="Etapa 3"
+                        description="Aqui convertimos la estrategia y la experiencia de usuario en un diseño visual, que represente la identidad de tu marca y que sea atractivo para el usuario."
+                        button="1 - 2hrs"
+                        url="#" />
+                    <PostItemComponent
+                        title="Implementación y desarrollo"
+                        subtitle="Etapa 4"
+                        description="En esta etapa damos vida a tu sitio web, aqui es donde juntamos el diseño y las estrategias para que tu sitio web sea funcional e implementamos un CMS para su facil administracion."
+                        button="1 - 2hrs"
+                        url="#" />
+                </section>
+            </div>
+        </Layout>
+    )
 }
-
-export default Home
+export default Home;
