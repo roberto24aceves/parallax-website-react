@@ -29,7 +29,6 @@ const Components = () => {
                   title="Costos y calidad en el desarrollo web: ¿Qué esperar?"
                   subtitle="6 de febrero de 2023"
                   description="El desarrollo web es una inversión importante para cualquier empresa que quiera tener una presencia en línea sólida. Sin embargo, los costos y la calidad"/>
-              <PreviewProjectsComponent/>
 
               <AccordionComponent/>
               <BannerComponent
