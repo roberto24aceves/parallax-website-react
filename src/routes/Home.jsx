@@ -15,7 +15,7 @@ const Home = () =>{
 
     return(
         <Layout>
-            <div className="flex flex-col justify-center items-center gap-5">
+            <div className="flex flex-col justify-center items-center gap-5 py-20">
                 <section className="flex flex-col justify-center items-center gap-6 h-[250px] md:h-[450px]">
                     <ButtonAnimateComponent content={"Parallax"}/>
                     <h1 className="text-white font-clash font-semibold text-2xl md:text-5xl uppercase text-center w-full md:w-2/3">Somos un equipo de desarrollo, creamos sitios web innovadores y ayudamos a las empresas a comunicarse de manera efectiva.</h1>
@@ -27,7 +27,7 @@ const Home = () =>{
                         content="Nuestro equipo esta conformado por diseñadores, mercadologos y desarrolladores, nuestra experiencia con diversas marcas nos inspiro a crear algo propio y con nuestro estilo, queremos innovar y ser referentes en el mercado."
                         tags={["SEO","Diseño Web", "Desarrollo web"]}/>
                 </section>
-                <section className="flex flex-col py-10 gap-5">
+                <section id="procesos" className="flex flex-col py-10 gap-5">
                     <div className="my-3 text-center">
                         <h2 className="font-clash text-white font-semibold text-2xl md:text-5xl uppercase">Conoce nuestro <br/> proceso.</h2>
                         <p className="font-switzer text-white">Conoce acontinuacion nuestro proceso para crear un sitio web.</p>
@@ -68,8 +68,12 @@ const Home = () =>{
                     <p className="text-center font-switzer text-white">Conoce cada uno de nuestros proyectos.</p>
                     <GalleryPortafolioComponent />
                 </section>
-                <section className="my-5">
-                    <BannerComponent title={"¿Tienes un proyecto en mente?"} subtitle={"Contactanos"} url={"#"} button={"Chattemos"} />
+                <section className="my-5" id="chateemos">
+                    <BannerComponent
+                        title={"¿Tienes un proyecto en mente?"}
+                        subtitle={"Chateemos!"}
+                        url={"#"}
+                        button={"Enviar mensaje"} />
                 </section>
             </div>
         </Layout>

@@ -57,10 +57,11 @@ const HeaderLayout = () => {
                         </div>
                         <nav className="flex">
                             <ul className="flex flex-col justify-center gap-4">
-                                <li className="item-nav"><Link className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" to={"/"}>Inicio</Link></li>
-                                <li className="item-nav"><Link className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" to={"/servicios"}>Servicios</Link></li>
-                                <li className="item-nav"><Link className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" to={"/portafolio"}>Portafolio</Link></li>
-                                <li className="item-nav"><Link className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" to={"/contacto"}>Contacto</Link></li>
+                                <li className="item-nav"><Link onClick={handleToggleMenu} className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" to={"/"}>Home</Link></li>
+                                <li className="item-nav"><a onClick={handleToggleMenu} className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" href="#servicios">Servicios</a></li>
+                                <li className="item-nav"><a onClick={handleToggleMenu} className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" href="#procesos">Proceso</a></li>
+                                <li className="item-nav"><Link onClick={handleToggleMenu} className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" to={"/portafolio"}>Portafolio</Link></li>
+                                <li className="item-nav"><a onClick={handleToggleMenu} className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" href="#chateemos">Chattemos!</a></li>
                             </ul>
                         </nav>
                         <div className="flex">
