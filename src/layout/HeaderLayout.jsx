@@ -58,17 +58,17 @@ const HeaderLayout = () => {
                         <nav className="flex">
                             <ul className="flex flex-col justify-center gap-4">
                                 <li className="item-nav"><Link onClick={handleToggleMenu} className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" to={"/"}>Home</Link></li>
-                                <li className="item-nav"><a onClick={handleToggleMenu} className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" href="#servicios">Servicios</a></li>
-                                <li className="item-nav"><a onClick={handleToggleMenu} className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" href="#procesos">Proceso</a></li>
-                                <li className="item-nav"><Link onClick={handleToggleMenu} className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" to={"/portafolio"}>Portafolio</Link></li>
-                                <li className="item-nav"><a onClick={handleToggleMenu} className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" href="#chateemos">Chattemos!</a></li>
+                                <li className="sub_item-nav"><a onClick={handleToggleMenu} className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" href="#servicios">Servicios</a></li>
+                                <li className="sub_item-nav"><a onClick={handleToggleMenu} className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" href="#procesos">Proceso</a></li>
+                                <li className="sub_item-nav"><a onClick={handleToggleMenu} className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" href="#portafolio">Portafolio</a></li>
+                                <li className="sub_item-nav font-medium"><a onClick={handleToggleMenu} className="hover:text-pllx-white hover:ms-5 hover:bg-pllx-blue transition-all duration-300" href="#chateemos">Chattemos!</a></li>
                             </ul>
                         </nav>
                         <div className="flex">
                             <ul className="flex font-clash text-pllx-blue text-xl gap-4">
-                                <li><a className="border-b border-pllx-blue hover:text-pllx-white hover:bg-pllx-blue transition duration-300" href="#">Facebook</a></li>
-                                <li><a className="border-b border-pllx-blue hover:text-pllx-white hover:bg-pllx-blue transition duration-300" href="#">Linkedin</a></li>
-                                <li><a className="border-b border-pllx-blue hover:text-pllx-white hover:bg-pllx-blue transition duration-300" href="#">Email</a></li>
+                                <li><a className="border-b-2 font-medium border-pllx-blue hover:text-pllx-white hover:bg-pllx-blue transition duration-300" href="#">Facebook</a></li>
+                                <li><a className="border-b-2 font-medium border-pllx-blue hover:text-pllx-white hover:bg-pllx-blue transition duration-300" href="#">Linkedin</a></li>
+                                <li><a className="border-b-2 font-medium border-pllx-blue hover:text-pllx-white hover:bg-pllx-blue transition duration-300" href="#">Email</a></li>
                             </ul>
                         </div>
                     </div>

@@ -1,21 +1,21 @@
 import Layout from "../layout/Layout.jsx";
 import ButtonAnimateComponent from "../components/ButtonAnimateComponent.jsx";
 import PreviewProjectsComponent from "../components/PreviewProjectsComponent.jsx";
-import FormContactComponent from "../components/FormContactComponent.jsx";
 import TextScrollComponent from "../components/TextScrollComponent.jsx";
-import PostItemComponent from "../components/PostItemComponent.jsx";
 import SingleItemComponent from "../components/SingleItemComponent.jsx";
 import TwoTextScrollComponent from "../components/TwoTextScrollComponent.jsx";
 import HabilitysTeamComponent from "../components/HabilitysTeamComponent.jsx";
-import GalleryPortafolioItemComponent from "../components/GalleryPortafolio/GalleryPortafolioItemComponent.jsx";
 import GalleryPortafolioComponent from "../components/GalleryPortafolioComponent.jsx";
 import BannerComponent from "../components/BannerComponent.jsx";
-
+import ContactButtonComponent from "../components/ContactButtonComponent.jsx";
+import ServicesItemComponent from "../components/ServicesItemComponent.jsx";
+import SocialLinksComponent from "../components/SocialLinksComponent.jsx";
 const Home = () =>{
 
     return(
         <Layout>
-            <div className="flex flex-col justify-center items-center gap-5 py-20">
+            <ContactButtonComponent title="Chattemos!" url="#"/>
+            <div className="flex flex-col justify-center items-center gap-5 pt-20">
                 <section className="flex flex-col justify-center items-center gap-6 h-[250px] md:h-[450px]">
                     <ButtonAnimateComponent content={"Parallax"}/>
                     <h1 className="text-white font-clash font-semibold text-2xl md:text-5xl uppercase text-center w-full md:w-2/3">Somos un equipo de desarrollo, creamos sitios web innovadores y ayudamos a las empresas a comunicarse de manera efectiva.</h1>
@@ -60,13 +60,23 @@ const Home = () =>{
                     </div>
                 </section>
                 <TwoTextScrollComponent first={"Parallax"} second={"Web Studio"}/>
-                <section>
-                    <HabilitysTeamComponent habilitys={["Diseño Web","Desarrollo Web","SEO","Marketing Digital","Estrategia de contenido", "Creacion de contenido", "Diseño digital", "Branding"]}/>
+                <section id="servicios">
+                    <h2 className="font-clash text-2xl md:text-5xl text-center text-white font-semibold">Nuestros Servicios</h2>
+                    <p className="text-white font-switzer text-center">Conoce cada uno de nuestros servicios y categorias.</p>
+                    <div className="flex flex-col gap-5 justify-center my-5">
+                        <ServicesItemComponent/>
+                        <ServicesItemComponent/>
+                        <ServicesItemComponent/>
+                        <ServicesItemComponent/>
+                    </div>
                 </section>
-                <section className="my-10">
+                <section className="my-10" id="portafolio">
                     <h2 className="font-clash text-2xl md:text-5xl text-center text-white font-semibold">Nuestro portafolio</h2>
                     <p className="text-center font-switzer text-white">Conoce cada uno de nuestros proyectos.</p>
                     <GalleryPortafolioComponent />
+                    <div className="my-4">
+                        <HabilitysTeamComponent habilitys={["Diseño Web","Desarrollo Web","SEO","Marketing Digital","Estrategia de contenido", "Creacion de contenido", "Diseño digital", "Branding"]}/>
+                    </div>
                 </section>
                 <section className="my-5" id="chateemos">
                     <BannerComponent
@@ -74,6 +84,7 @@ const Home = () =>{
                         subtitle={"Chateemos!"}
                         url={"#"}
                         button={"Enviar mensaje"} />
+                        <SocialLinksComponent/>
                 </section>
             </div>
         </Layout>

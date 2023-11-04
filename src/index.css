@@ -45,7 +45,10 @@
     }
     /*Navigation*/
     .item-nav{
-        @apply font-clash text-pllx-blue text-5xl md:text-6xl;
+        @apply font-clash text-pllx-blue text-5xl md:text-6xl font-medium;
+    }
+    .sub_item-nav{
+        @apply text-3xl md:text-4xl font-clash text-pllx-blue ml-3;
     }
     .b-animate{
         @apply btn bg-gradient-to-r from-pllx-blue to-white text-white font-clash text-lg font-medium w-fit hover:drop-shadow-pllx-blue transition-all duration-300 ease-in-out;
