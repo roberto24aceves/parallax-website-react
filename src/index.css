@@ -81,7 +81,7 @@
         @apply flex flex-wrap md:justify-center gap-2 p-3;
     }
     .cItems{
-        @apply btn w-fit sm:w-fit text-center font-switzer font-medium text-pllx-white bg-pllx-gray hover:bg-pllx-white hover:text-pllx-black transition-all duration-300 ease-in-out;
+        @apply btn cursor-pointer w-fit sm:w-fit text-center font-switzer font-medium text-pllx-white bg-pllx-gray hover:bg-pllx-white hover:text-pllx-black transition-all duration-300 ease-in-out;
     }
     /*Accordion*/
     .accordion-item{

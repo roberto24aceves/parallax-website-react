@@ -2,7 +2,7 @@ import idefault from "../../assets/img/mockup.png";
 import {motion} from "framer-motion";
 const GalleryPortafolioItemComponent = ({title,extract,img,url}) =>{
     return(
-        <motion.div whileHover={{scale:1.05}} className="w-full md:basis-1/2 lg:basis-1/3 py-4 px-3 rounded-xl hover:drop-shadow-pllx-gray transition-all duration-300">
+        <motion.div whileHover={{scale:1.05}} className="w-full md:basis-1/2 lg:basis-1/3 py-4 px-3 rounded-xl hover:drop-shadow-pllx-gray">
             <img className="" src={!img ? idefault : img} alt=""/>
             <div className="py-4">
                 <h3 className="font-medium font-clash text-2xl text-pllx-white">{title}</h3>
