@@ -11,10 +11,10 @@ const ServicesItemComponent = () =>{
             <div className="flex flex-col w-full md:w-1/2 lg:w-1/3">
                 <h4 className="group-hover:text-pllx-black font-clash font-semibold text-xl md:text-2xl text-white">Nuestros servicios</h4>
                 <div className="flex flex-wrap gap-2 mt-2">
-                    <span className="inline-block bg-pllx-white px-3 py-1 rounded-full text-pllx-blue font-semibold font-switzer group-hover:text-pllx-gray-dark text-sm">Diseño UX/UI</span>
-                    <span className="inline-block bg-pllx-white px-3 py-1 rounded-full text-pllx-blue font-semibold font-switzer group-hover:text-pllx-gray-dark text-sm">Desarrollo Web</span>
-                    <span className="inline-block bg-pllx-white px-3 py-1 rounded-full text-pllx-blue font-semibold font-switzer group-hover:text-pllx-gray-dark text-sm">Estrategia SEO</span>
-                    <span className="inline-block bg-pllx-white px-3 py-1 rounded-full text-pllx-blue font-semibold font-switzer group-hover:text-pllx-gray-dark text-sm">Consultoria SEO</span>
+                    <span className="inline-block bg-pllx-white px-3 py-1 rounded-full text-pllx-blue font-semibold font-switzer group-hover:bg-pllx-blue group-hover:text-pllx-white text-sm">Diseño UX/UI</span>
+                    <span className="inline-block bg-pllx-white px-3 py-1 rounded-full text-pllx-blue font-semibold font-switzer group-hover:bg-pllx-blue group-hover:text-pllx-white text-sm">Desarrollo Web</span>
+                    <span className="inline-block bg-pllx-white px-3 py-1 rounded-full text-pllx-blue font-semibold font-switzer group-hover:bg-pllx-blue group-hover:text-pllx-white text-sm">Estrategia SEO</span>
+                    <span className="inline-block bg-pllx-white px-3 py-1 rounded-full text-pllx-blue font-semibold font-switzer group-hover:bg-pllx-blue group-hover:text-pllx-white text-sm">Consultoria SEO</span>
                 </div>
             </div>
         </motion.div>
