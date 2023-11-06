@@ -24,6 +24,7 @@ export default {
       dropShadow: {
         'pllx-blue': '0 0 35px rgba(71, 0, 216, 0.5)',
         'pllx-gray': '0 0 35px rgba(41, 41, 47, 0.5)',
+        'whatsapp': '4px 7px 20px #36ff002e'
       }
     },
   },
