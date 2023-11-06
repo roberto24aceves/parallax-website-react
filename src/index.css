@@ -4,6 +4,9 @@
 
 @layer components{
     /*General Elements*/
+    p{
+        @apply text-base;
+    }
     .body{
         @apply bg-pllx-black bg-gradient-to-r from-pllx-gray to-pllx-black;
     }
