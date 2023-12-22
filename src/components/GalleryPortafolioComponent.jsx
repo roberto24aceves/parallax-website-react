@@ -12,19 +12,14 @@ const GalleryPortafolioComponent = () =>{
             <div className="flex flex-wrap">
                 <GalleryPortafolioItemComponent
                     img=""
-                    url="#"
+                    url=""
                     title="Permanex"
-                    extract="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur corporis harum iure minus nisi? Ullam."/>
-                <GalleryPortafolioItemComponent
+                    extract=""/>
+                {/*<GalleryPortafolioItemComponent
                     img=""
-                    url="#"
-                    title="Permanex"
-                    extract="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur corporis harum iure minus nisi? Ullam."/>
-                <GalleryPortafolioItemComponent
-                    img=""
-                    url="#"
-                    title="Permanex"
-                    extract="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur corporis harum iure minus nisi? Ullam."/>
+                    url=""
+                    title="Latin Media Monitor"
+                    extract=""/>*/}
             </div>
         </div>
     )

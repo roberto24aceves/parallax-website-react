@@ -47,7 +47,7 @@ const HeaderLayout = () => {
                     </div>
                 </div>
             </header>
-            <section id="menu-container" className="hidden fixed w-screen h-screen top-0 left-0 z-10 bg-pllx-white">
+            <section id="menu-container" className="hidden fixed w-screen sm:w-[500px] h-screen top-0 left-0 z-10 bg-pllx-white drop-shadow-pllx-blue">
                 <div className="flex flex-col justify-between h-full">
                     <div className="flex h-full flex-col justify-between px-4 md:px-16 py-5">
                         <div className="flex justify-end items-center">
