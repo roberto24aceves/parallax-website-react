@@ -14,7 +14,7 @@ const GalleryPortafolioComponent = () =>{
                     img=""
                     url=""
                     title="Permanex"
-                    extract=""/>
+                    extract="Diseño UX / Diseño UI / Desarrollo web."/>
                 {/*<GalleryPortafolioItemComponent
                     img=""
                     url=""
