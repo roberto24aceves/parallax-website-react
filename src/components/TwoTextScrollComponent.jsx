@@ -20,14 +20,14 @@ const TwoTextScrollComponent = ({first,second}) =>{
     }
     return(
         <div className="flex flex-col items-center justify-center h-[200px] overflow-hidden">
-            <div className="py-3 px-10 bg-pllx-blue -rotate-3 w-[2000px] h-fit">
+            <div className="py-3 px-10 bg-pllx-blue -rotate-3 w-[4000px] h-fit">
                 <motion.div style={{x:scrollY}} transition={{type:'spring'}} className="flex justify-end gap-5">
                     {elements('first').map((item,index)=>(
                         <div key={index} className="min-w-fit text-white font-clash font-bold uppercase text-center">{item}</div>
                     ))}
                 </motion.div>
             </div>
-            <div className="py-3 px-10 bg-pllx-white rotate-2 w-[2000px] h-fit z-10">
+            <div className="py-3 px-10 bg-pllx-white rotate-2 w-[4000px] h-fit z-10">
                 <motion.div style={{x:scrollY}} transition={{type:'spring'}} className="flex justify-end gap-5">
                     {elements('second').map((item,index)=>(
                         <div key={index} className="min-w-fit text-pllx-black font-clash font-bold uppercase text-center">{item}</div>
