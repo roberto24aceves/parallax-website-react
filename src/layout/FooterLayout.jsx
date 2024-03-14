@@ -1,4 +1,4 @@
-import logo from '../assets/img/logo.png';
+import images from "../images.jsx";
 import {Link} from "react-router-dom";
 const FooterLayout = () => {
     return (
@@ -8,7 +8,7 @@ const FooterLayout = () => {
                     © 2019 Todos los derechos reservados. Parallax Estudio de desarrollo web.
                 </span>
                 <Link to={"/"}>
-                    <img src={logo} className="w-32" alt=""/>
+                    <img src={images.logo} className="w-32" alt=""/>
                 </Link>
             </div>
         </footer>

@@ -1,4 +1,4 @@
-import logo from '../assets/img/logo.png';
+import images from "../images.jsx";
 import menuopen from '../assets/img/menu.svg';
 import menuclose from '../assets/img/close.svg';
 import {Link} from 'react-router-dom';
@@ -39,7 +39,7 @@ const HeaderLayout = () => {
             <header className="container py-5">
                 <div className="flex justify-between items-center px-4 md:px-16">
                     <Link to={"/"}>
-                        <img src={logo} className="w-32" alt=""/>
+                        <img src={images.logo} className="w-32" alt=""/>
                     </Link>
                     <div className="flex items-center gap-6">
                         <Link to={"/portafolio"} className="btn btn-primary uppercase hidden sm:block">Portafolio</Link>

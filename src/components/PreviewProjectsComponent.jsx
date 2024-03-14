@@ -1,10 +1,10 @@
-import idefault from '../assets/img/project.png';
+import images from "../images.jsx";
 import { motion } from "framer-motion";
 const PreviewProjectsComponent = ({title,content,tags}) =>{
     return(
        <div className="container">
             <div className="flex flex-wrap justify-center md:justify-between items-center">
-                <motion.img animate={{scale:[1,1.05,1]}} transition={{duration:1,times:[0,.5,1],ease:"easeInOut",repeat:Infinity}} className="drop-shadow-pllx-gray w-full mb-5 md:mb-0 md:h-[450px] object-contain md:object-contain lg:w-3/6 xl:w-4/6" src={idefault} alt=""/>
+                <motion.img animate={{scale:[1,1.05,1]}} transition={{duration:1,times:[0,.5,1],ease:"easeInOut",repeat:Infinity}} className="drop-shadow-pllx-gray w-full mb-5 md:mb-0 md:h-[450px] object-contain md:object-contain lg:w-3/6 xl:w-4/6" src={images.lmm} alt=""/>
                 <div className="mb-10 lg:mb-0 lg:mt-0 lg:w-3/6 lg:p-4 xl:w-2/6">
                     <h3 className="uppercase font-clash font-bold text-2xl md:text-4xl text-white text-center lg:text-start">{title}</h3>
                     <p className="text-white font-switzer my-3 text-center lg:text-start">

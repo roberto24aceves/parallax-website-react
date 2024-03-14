@@ -1,4 +1,3 @@
-import idefault from '../assets/img/mockup.png';
 import GalleryPortafolioItemComponent from "./GalleryPortafolio/GalleryPortafolioItemComponent.jsx";
 const GalleryPortafolioComponent = () =>{
     return (
