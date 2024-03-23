@@ -81,7 +81,7 @@ const Home = () =>{
                             url="https://wa.link/ih4iog" button="Chateemos!"/>
                     </div>
                 </section>
-                <section className="my-10" id="portafolio">
+                <section className="my-10 w-full" id="portafolio">
                     <h2 className="font-clash text-2xl md:text-5xl text-center text-white font-semibold">Nuestro portafolio</h2>
                     <p className="text-center font-switzer text-white">Todos los proyectos nacen de una idea y todas las ideas tienen una historia para contar</p>
                     <GalleryPortafolioComponent />

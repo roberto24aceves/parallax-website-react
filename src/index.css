@@ -103,4 +103,7 @@
     .inputs{
         @apply w-full rounded bg-gradient-to-tl from-pllx-gray to-pllx-gray-light shadow-inner shadow-pllx-gray py-3 px-4 font-switzer text-white text-sm border-2 border-none hover:border-pllx-gray-light focus:outline-none focus:ring-2 focus:ring-pllx-gray-light focus:ring-opacity-50 transition-all duration-300 ease-in-out;
     }
+    .portafolio_image{
+        @apply w-full h-[250px] object-cover;
+    }
 }
