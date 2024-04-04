@@ -10,19 +10,20 @@ export default {
     },
     extend: {
       colors:{
-        'pllx-white': '#E8E8E8',
+        'pllx-white': '#FBFFDC',
         'pllx-gray-light': '#474752',
         'pllx-gray': '#29292F',
         'pllx-gray-dark': '#1E1E1E',
         'pllx-black': '#18181A',
-        'pllx-blue':'#4700D8',
+        'pllx-blue':'#232855',
+        'pllx-accent':'#FF5722',
       },
       fontFamily:{
           'switzer': 'Switzer',
           'clash': 'Clash Display',
       },
       dropShadow: {
-        'pllx-blue': '0 0 35px rgba(71, 0, 216, 0.5)',
+        'pllx-blue': '0 0 35px rgba(255, 87, 34, 0.2)',
         'pllx-gray': '0 0 35px rgba(41, 41, 47, 0.5)',
         'whatsapp': '4px 7px 20px #36ff002e'
       },

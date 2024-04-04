@@ -4,6 +4,7 @@
 
 @layer components{
     /*General Elements*/
+
     p{
         @apply text-base;
     }
@@ -14,15 +15,15 @@
         width: .5em;
     }
     body::-webkit-scrollbar-thumb{
-        background: #4700D8;
+        background: #FF5722;
         border-radius: .5em;
     }
     *::selection{
-        background: #4700D8;
+        background: #FF5722;
         color: #ffffff;
     }
     *::-moz-selection{
-        background: #4700D8;
+        background: #FF5722;
         color: #ffffff;
     }
     .btn{
@@ -33,10 +34,10 @@
     }
     /*Banner*/
     .btn-banner{
-        @apply bg-white text-pllx-blue text-xl sm:text-2xl font-medium font-clash normal-case;
+        @apply bg-white text-pllx-gray-dark text-xl sm:text-2xl font-medium font-clash normal-case;
     }
     .banner{
-        @apply w-full bg-gradient-to-t from-pllx-blue to-indigo-700 hover:drop-shadow-pllx-blue hover:scale-105 rounded-2xl px-1.5 py-14 transition duration-300;
+        @apply w-full bg-gradient-to-t from-pllx-blue to-pllx-white hover:drop-shadow-pllx-blue hover:scale-105 rounded-2xl px-1.5 py-14 transition duration-300;
     }
     /*Post*/
     .postItem{
@@ -54,7 +55,7 @@
         @apply text-3xl md:text-4xl font-clash text-pllx-blue ml-3;
     }
     .b-animate{
-        @apply btn bg-gradient-to-r from-pllx-blue to-white text-white font-clash text-lg font-medium w-fit hover:drop-shadow-pllx-blue transition-all duration-300 ease-in-out;
+        @apply btn bg-gradient-to-r from-pllx-blue to-pllx-accent text-white font-clash text-lg font-medium w-fit hover:drop-shadow-pllx-blue transition-all duration-300 ease-in-out;
     }
     /*Galery*/
     .container-gallery{
@@ -105,5 +106,14 @@
     }
     .portafolio_image{
         @apply w-full h-[250px] object-cover;
+    }
+
+    @media screen and (min-width: 769px){
+        .menu{
+            width: 470px !important;
+        }
+    }
+    .menu[data-toogle="true"] {
+        left: 0 !important;
     }
 }
