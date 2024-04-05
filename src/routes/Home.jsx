@@ -102,7 +102,7 @@ const Home = () =>{
                             alt="" width={"150px"}/>
                         <img
                             src="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/clients/luvora.png"
-                            alt="" width={"130px"}/>
+                            alt="" width={"147px"}/>
                     </div>
                 </section>
                 {/*<section className="my-5" id="chateemos">
