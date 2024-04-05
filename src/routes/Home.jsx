@@ -19,7 +19,8 @@ const Home = () =>{
                 <section className="flex flex-col justify-center items-center gap-6 h-[250px] md:h-[450px]">
                     <ButtonAnimateComponent content={"Bienvenido"}/>
                     <h1 className="text-white font-clash font-semibold text-2xl md:text-6xl uppercase text-center w-full md:w-2/3">
-                        Hola, somos Parallax.
+                        Hola, <br/>
+                        somos Parallax.
                     </h1>
                     <p className="text-white w-full md:w-2/3 text-center">
                         En parallax somos un equipo de expertos en desarrollo de software, diseño de interfaces y experiencia de usuario.
