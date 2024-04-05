@@ -86,16 +86,16 @@ const Home = () =>{
                             url="https://wa.link/ih4iog" button="Chateemos!"/>
                     </div>
                 </section>
-                <section className="my-10 w-full" id="portafolio">
+                <section className="mt-10 mb-28 w-full" id="portafolio">
                     <h2 className="font-clash text-2xl md:text-5xl text-center text-white font-semibold">Nuestro
                         portafolio</h2>
                     <p className="text-center font-switzer text-white">Todos los proyectos nacen de una idea y todas las
                         ideas tienen una historia para contar</p>
                     <GalleryPortafolioComponent/>
                     <h2 className="font-clash text-2xl md:text-5xl text-center text-white font-semibold md:hidden">Nuestros Clientes</h2>
-                    <h3 className="text-center font-clash text-white mb-10 md:my-5 font-medium ">Ellos hán confiado
+                    <h3 className="text-center font-clash text-white mb-10 md:mt-5 md:mb-10 md:font-semibold md:text-2xl ">Ellos hán confiado
                         en nosotros:</h3>
-                    <div className="flex gap-10 md:gap-5 justify-center items-center">
+                    <div className="flex gap-10 md:gap-10 justify-center items-center">
                         <img
                             src="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/clients/latin_media_monitor.png"
                             alt="" width={"150px"}/>
@@ -104,14 +104,14 @@ const Home = () =>{
                             alt="" width={"130px"}/>
                     </div>
                 </section>
-                <section className="my-5 hidden" id="chateemos">
+                {/*<section className="my-5" id="chateemos">
                     <BannerComponent
                         title={"¿Tienes un proyecto en mente?"}
                         subtitle={"Chateemos!"}
                         url={"https://wa.link/ih4iog"}
-                        button={"Enviar mensaje"} />
-                        <SocialLinksComponent/>
-                </section>
+                        button={"Enviar mensaje"}/>
+                    <SocialLinksComponent/>
+                </section>*/}
             </div>
         </Layout>
     )
