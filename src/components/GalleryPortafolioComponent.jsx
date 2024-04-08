@@ -11,7 +11,7 @@ const GalleryPortafolioComponent = () =>{
                 <div className="cItems" onClick={()=>setFilter("ux/ui")}>UX/UI</div>
                 <div className="cItems" onClick={()=>setFilter("seo")}>SEO</div>
             </div>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap justify-center">
                 {
                     items.map((item,index)=>{
                         if(filter === null){

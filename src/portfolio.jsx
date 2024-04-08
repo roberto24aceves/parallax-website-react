@@ -14,6 +14,24 @@ const portfolio = [
         extract : "Diseño UX/UI / Desarrollo web.",
         url: "",
         cartegory: [
+            "ux/ui","web_desing",
+        ]
+    },
+    {
+        name: "Latin Media Monitor",
+        img: "https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/latin_media_monitor.jpg",
+        extract : "Diseño UX/UI / Desarrollo web / SEO.",
+        url: "",
+        cartegory: [
+            "ux/ui","web_desing","web_development","seo"
+        ]
+    },
+    {
+        name: "Bellakeofest",
+        img: "https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/bellakeofest.jpg",
+        extract : "Diseño UX/UI / Desarrollo web.",
+        url: "",
+        cartegory: [
             "ux/ui","web_desing","web_development"
         ]
     }
