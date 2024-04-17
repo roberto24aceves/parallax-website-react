@@ -34,6 +34,24 @@ const portfolio = [
         cartegory: [
             "ux/ui","web_desing","web_development"
         ]
+    },
+    {
+        name: "Parallax",
+        img: "https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/parallax.jpg",
+        extract : "Diseño UX/UI / Desarrollo web.",
+        url: "",
+        cartegory: [
+            "ux/ui","web_desing","web_development"
+        ]
+    },
+    {
+        name: "Yaaxtal",
+        img: "https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/yaaxtal.jpg",
+        extract : "Desarrollo web.",
+        url: "",
+        cartegory: [
+            "web_development"
+        ]
     }
 ]
 export default portfolio
