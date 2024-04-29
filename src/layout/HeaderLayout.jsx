@@ -19,7 +19,7 @@ const HeaderLayout = () => {
                         <img src={images.logo} className="w-32" alt=""/>
                     </Link>
                     <div className="flex items-center gap-6">
-                        <Link to={"#portafolio"} className="btn btn-primary uppercase hidden sm:block">Portafolio</Link>
+                        <a href="https://www.behance.net/robertoaceves" className="btn btn-primary uppercase hidden sm:block">Portafolio</a>
                         <img onClick={() => setToogle(!toogle)}
                              data-toogle={toogle} src={!toogle ? menuopen : menuclose} className="w-10 h-10 cursor-pointer hidden" alt=""/>
                     </div>

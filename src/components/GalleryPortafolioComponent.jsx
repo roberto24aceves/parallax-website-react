@@ -6,15 +6,16 @@ const GalleryPortafolioComponent = () =>{
     return (
         <div className="w-full">
             <div className="category-elements">
-                <div className="cItems" onClick={()=>setFilter("web_desing")}>Diseño Web</div>
-                <div className="cItems" onClick={()=>setFilter("web_development")}>Desarrollo Web</div>
-                <div className="cItems" onClick={()=>setFilter("ux/ui")}>UX/UI</div>
-                <div className="cItems" onClick={()=>setFilter("seo")}>SEO</div>
+                <div className="cItems" onClick={() => setFilter("all")}>Todos</div>
+                <div className="cItems" onClick={() => setFilter("web_desing")}>Diseño Web</div>
+                <div className="cItems" onClick={() => setFilter("web_development")}>Desarrollo Web</div>
+                <div className="cItems" onClick={() => setFilter("ux/ui")}>UX/UI</div>
+                <div className="cItems" onClick={() => setFilter("seo")}>SEO</div>
             </div>
             <div className="flex flex-wrap justify-center">
                 {
                     items.map((item,index)=>{
-                        if(filter === null){
+                        if(filter === null || filter === "all"){
                             return (
                                 <GalleryPortafolioItemComponent
                                     key={index}
