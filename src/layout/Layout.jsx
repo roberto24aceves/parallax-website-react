@@ -2,7 +2,7 @@ import HeaderLayout from "./HeaderLayout.jsx";
 import FooterLayout from "./FooterLayout.jsx";
 import CursorComponent from "../components/CursorComponent.jsx";
 import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const Layout = ({children }) => {
     return(
