@@ -11,7 +11,7 @@ const Page404 = () =>{
                 <h1 className="font-clash text-3xl sm:text-4xl lg:text-6xl text-center text-white sm:w-3/4 md:w-2/3 mx-auto drop-shadow-pllx-gray">
                     Lo sentimos la pagina que buscas no esta disponible, vuelve más tarde.
                 </h1>
-                <Link to={"/"} className="btn bg-pllx-white hover:bg-pllx-blue font-clash font-medium text-pllx-blue hover:text-pllx-white hover:drop-shadow-pllx-blue hover:scale-105 text-xl transition-all duration-300">
+                <Link to={"/"} className="btn bg-pllx-white hover:bg-pllx-blue font-clash font-medium text-pllx-gray-dark hover:drop-shadow-pllx-blue hover:scale-105 text-xl transition-all duration-300">
                     Regresar al inicio
                 </Link>
             </section>

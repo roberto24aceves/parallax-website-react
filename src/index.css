@@ -34,7 +34,7 @@
     }
     /*Banner*/
     .btn-banner{
-        @apply bg-white text-pllx-theme text-xl sm:text-2xl font-medium font-clash normal-case;
+        @apply bg-white text-pllx-gray-dark text-xl sm:text-2xl font-medium font-clash normal-case;
     }
     .banner{
         @apply w-full bg-gradient-to-t from-pllx-theme to-pllx-accent hover:drop-shadow-pllx-theme hover:scale-105 rounded-2xl px-1.5 py-14 transition duration-300;
