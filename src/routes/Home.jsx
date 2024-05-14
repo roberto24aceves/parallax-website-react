@@ -99,10 +99,10 @@ const Home = () =>{
                     <div className="flex gap-10 md:gap-10 justify-center items-center">
                         <img
                             src="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/clients/latin_media_monitor.png"
-                            alt="" width={"150px"}/>
+                            alt="" width={"150"}/>
                         <img
                             src="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/clients/luvora.png"
-                            alt="" width={"147px"}/>
+                            alt="" width={"140"}/>
                     </div>
                 </section>
                 <section className="mt-5 mb-28 w-full">
