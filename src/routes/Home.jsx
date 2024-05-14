@@ -75,7 +75,7 @@ const Home = () =>{
                     <div className="flex flex-col gap-5 justify-center my-5">
                         <ServicesItemComponent
                             title="Desarrollo de software"
-                            description="En parallax desarrollamos aplicaciones cuidando cada detalle, desde el diseno y la experiencia de usuario hasta la seguridad de la información."
+                            description="En parallax desarrollamos aplicaciones cuidando cada detalle, desde el diseño y la experiencia de usuario hasta la seguridad de la información."
                             subtitle="Servicios"
                             services={["Sitios web","Aplicaciones web","Aplicaciones moviles","Gestores de contenido","Desarrollo de software","Software a la medida"]}
                             url="https://wa.link/ih4iog" button="Chateemos!"/>
@@ -105,14 +105,15 @@ const Home = () =>{
                             alt="" width={"147px"}/>
                     </div>
                 </section>
-                {/*<section className="my-5" id="chateemos">
-                    <BannerComponent
-                        title={"¿Tienes un proyecto en mente?"}
-                        subtitle={"Chateemos!"}
-                        url={"https://wa.link/ih4iog"}
-                        button={"Enviar mensaje"}/>
-                    <SocialLinksComponent/>
-                </section>*/}
+                <section className="mt-5 mb-28 w-full">
+                    <h2 className="font-clash text-2xl md:text-5xl text-center text-white font-semibold mb-10">Envianos un mensaje!</h2>
+                    <HabilitysTeamComponent
+                        name="Roberto Aceves"
+                        description="Desarrollador de software y diseñador de interfaces, me especializo en el desarrollo de aplicaciones web y moviles, me encanta el diseño y la experiencia de usuario."
+                        img="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/users/perfil.jpg"
+                        link="https://wa.link/ih4iog"
+                        habilitys={['Astro.build', 'Javascript', 'PHP', 'Python', 'HTML', 'CSS', 'Tailwind', 'Bootstrap', 'AWS', 'NODE.JS', 'REACT', 'VUE.JS', 'laravel', 'Django', 'GitHub', 'Supabase', 'Vercel']}/>
+                </section>
             </div>
         </Layout>
     )

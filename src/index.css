@@ -15,15 +15,15 @@
         width: .5em;
     }
     body::-webkit-scrollbar-thumb{
-        background: #FF5722;
+        background: linear-gradient(45deg, #181818, #A06CD5, #181818);
         border-radius: .5em;
     }
     *::selection{
-        background: #FF5722;
+        background: #07393C;
         color: #ffffff;
     }
     *::-moz-selection{
-        background: #FF5722;
+        background: #07393C;
         color: #ffffff;
     }
     .btn{
@@ -34,10 +34,10 @@
     }
     /*Banner*/
     .btn-banner{
-        @apply bg-white text-pllx-gray-dark text-xl sm:text-2xl font-medium font-clash normal-case;
+        @apply bg-white text-pllx-theme text-xl sm:text-2xl font-medium font-clash normal-case;
     }
     .banner{
-        @apply w-full bg-gradient-to-t from-pllx-blue to-pllx-white hover:drop-shadow-pllx-blue hover:scale-105 rounded-2xl px-1.5 py-14 transition duration-300;
+        @apply w-full bg-gradient-to-t from-pllx-theme to-pllx-accent hover:drop-shadow-pllx-theme hover:scale-105 rounded-2xl px-1.5 py-14 transition duration-300;
     }
     /*Post*/
     .postItem{
@@ -49,13 +49,13 @@
     }
     /*Navigation*/
     .item-nav{
-        @apply font-clash text-pllx-blue text-5xl md:text-6xl font-medium;
+        @apply font-clash text-pllx-theme text-5xl md:text-6xl font-medium;
     }
     .sub_item-nav{
-        @apply text-3xl md:text-4xl font-clash text-pllx-blue ml-3;
+        @apply text-3xl md:text-4xl font-clash text-pllx-theme ml-3;
     }
     .b-animate{
-        @apply btn bg-gradient-to-r from-pllx-blue to-pllx-accent text-white font-clash text-lg font-medium w-fit hover:drop-shadow-pllx-blue transition-all duration-300 ease-in-out;
+        @apply btn bg-gradient-to-r from-pllx-theme to-pllx-accent text-white font-clash text-lg font-medium w-fit hover:drop-shadow-pllx-theme transition-all duration-300 ease-in-out;
     }
     /*Galery*/
     .container-gallery{

@@ -6,7 +6,7 @@ import ButtonAnimateComponent from "../components/ButtonAnimateComponent.jsx";
 const Page404 = () =>{
     return(
         <Layout>
-            <section className="flex flex-col justify-center items-center gap-4 py-4 h-full">
+            <section className="flex flex-col justify-center items-center gap-4 py-4">
                 <ButtonAnimateComponent content={"Error 404"}/>
                 <h1 className="font-clash text-3xl sm:text-4xl lg:text-6xl text-center text-white sm:w-3/4 md:w-2/3 mx-auto drop-shadow-pllx-gray">
                     Lo sentimos la pagina que buscas no esta disponible, vuelve más tarde.
@@ -17,10 +17,10 @@ const Page404 = () =>{
             </section>
             <section className="py-4">
                 <BannerComponent
-                    subtitle="Acerda de nosotros"
+                    subtitle="Nuestros proyectos"
                     title="¡Conoce nuestro portafolio!"
                     button="¡Haz click aqui!"
-                    url="/portafolio"/>
+                    url="https://www.behance.net/robertoaceves"/>
             </section>
         </Layout>
     )

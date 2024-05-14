@@ -10,20 +10,20 @@ export default {
     },
     extend: {
       colors:{
-        'pllx-white': '#FBFFDC',
-        'pllx-gray-light': '#474752',
-        'pllx-gray': '#29292F',
-        'pllx-gray-dark': '#1E1E1E',
-        'pllx-black': '#18181A',
-        'pllx-blue':'#232855',
-        'pllx-accent':'#FF5722',
+        'pllx-white': '#F0F3FF',
+        'pllx-gray-light': '#E2CFEA',
+        'pllx-gray': '#102B3F',
+        'pllx-gray-dark': '#062726',
+        'pllx-black': '#181818',
+        'pllx-theme':'#6247AA',
+        'pllx-accent':'#A06CD5',
       },
       fontFamily:{
           'switzer': 'Switzer',
           'clash': 'Clash Display',
       },
       dropShadow: {
-        'pllx-blue': '0 0 35px rgba(255, 87, 34, 0.2)',
+        'pllx-theme': '0 0 35px rgba(106, 108, 213, 0.25)',
         'pllx-gray': '0 0 35px rgba(41, 41, 47, 0.5)',
         'whatsapp': '4px 7px 20px #36ff002e'
       },
