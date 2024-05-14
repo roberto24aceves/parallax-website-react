@@ -11,7 +11,7 @@ const ButtonAnimateComponent = ({content}) =>{
                 ease:"easeInOut",
                 times:[0,0.5,1],
                 repeat:"Infinity"
-            }} className="b-animate drop-shadow-pllx-blue">
+            }} className="b-animate drop-shadow-pllx-theme">
             {content}
         </motion.div>
     )

@@ -13,7 +13,7 @@ const TextScrollComponent = ({text}) =>{
             <div className="py-3 px-10 bg-pllx-theme rotate-2 w-[4000px] h-fit">
                 <motion.div style={{x:scrollY}} transition={{type:'spring'}} className="flex justify-end gap-5">
                     {elements().map((item,index)=>(
-                        <div key={index} className="min-w-fit text-white font-clash font-bold uppercase text-center">{item}</div>
+                        <div key={index} className="min-w-fit text-pllx-gray-dark font-clash font-bold uppercase text-center">{item}</div>
                     ))}
                 </motion.div>
             </div>

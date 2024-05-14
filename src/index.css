@@ -15,15 +15,15 @@
         width: .5em;
     }
     body::-webkit-scrollbar-thumb{
-        background: linear-gradient(45deg, #181818, #A06CD5, #181818);
+        background: linear-gradient(45deg, #181818, #BBFF00, #181818);
         border-radius: .5em;
     }
     *::selection{
-        background: #07393C;
+        background: #BBFF00;
         color: #ffffff;
     }
     *::-moz-selection{
-        background: #07393C;
+        background: #BBFF00;
         color: #ffffff;
     }
     .btn{
@@ -55,7 +55,7 @@
         @apply text-3xl md:text-4xl font-clash text-pllx-theme ml-3;
     }
     .b-animate{
-        @apply btn bg-gradient-to-r from-pllx-theme to-pllx-accent text-white font-clash text-lg font-medium w-fit hover:drop-shadow-pllx-theme transition-all duration-300 ease-in-out;
+        @apply btn bg-gradient-to-r from-pllx-theme to-pllx-accent text-pllx-gray-dark font-clash text-lg font-medium w-fit hover:drop-shadow-pllx-theme transition-all duration-300 ease-in-out;
     }
     /*Galery*/
     .container-gallery{
