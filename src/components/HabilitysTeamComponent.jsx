@@ -15,7 +15,7 @@ const HabilitysTeamComponent = ({ habilitys, img, name, description, link }) => 
             </div>
             <div className="w-full md:w-full lg:w-1/2 xl:w-1/3">
                 <h3 className="font-clash font-semibold uppercase text-pllx-black mt-5 lg:mt-0">Habilidades:</h3>
-                <div className=" flex flex-wrap gap-3 mt-2">
+                <div className=" flex flex-wrap gap-2 mt-2">
                     {
                         habilitys.map((hability, index) => (
                             <span className="bg-pllx-theme py-1 px-3 rounded-xl text-pllx-gray-dark font-semibold font-switzer text-sm hover:drop-shadow-pllx-blue transition-all duration-300 cursor-pointer" key={index}>{hability}</span>

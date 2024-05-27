@@ -23,17 +23,19 @@ const Home = () =>{
                         somos Parallax.
                     </h1>
                     <p className="text-white w-full md:w-2/3 text-center">
-                        En parallax somos un equipo de expertos en desarrollo de software, diseño de interfaces y experiencia de usuario.
-                        Nuestro objetivo es ayudarte a llevar tu idea al siguiente nivel.
+                        Somos un equipo de profesionales con vasta experiencia creando aplicaciones y sitios web
+                        funcionales, nuestro objetivo es guiarte y ayudarte a desarrollar tu proyecto con las mejores
+                        tecnologías y con las mejores prácticas para que puedas alcanzar con eficacia tus objetivos
+                        comerciales.
                     </p>
                 </section>
                 <TextScrollComponent text={"Parallax"}/>
                 <section>
                     <PreviewProjectsComponent
                         title="Nuestro Equipo"
-                        content="   Nuestro equipo esta conformado por expertos de distintas areas, cada uno con su propia
-                                    experiencia y estilo, esto nos permite ver desde direntes perspectivas cada proyecto y
-                                    asi poder crear algo unico."
+                        content="
+                            En nuestro equipo podrás encontrar expertos en distintas áreas, con diversidad de estilos y resolución de problemas, esto nos permite comprender cada problemática y desarrollar una solución efectiva.
+                        "
                         tags={["SEO","Diseño UX/UI", "Desarrollo de software", "Desarrollo web"]}/>
                 </section>
                 <section id="procesos" className="flex flex-col py-10 gap-5">
@@ -75,25 +77,25 @@ const Home = () =>{
                     <div className="flex flex-col gap-5 justify-center my-5">
                         <ServicesItemComponent
                             title="Desarrollo de software"
-                            description="En parallax desarrollamos aplicaciones cuidando cada detalle, desde el diseño y la experiencia de usuario hasta la seguridad de la información."
+                            description="Nuestro equipo te ayudará a desarrollar una aplicación funcional y visualmente atractiva, que cumpla con tus expectativas y resuelva de manera eficiente los objetivos planteados."
                             subtitle="Servicios"
                             services={["Sitios web","Aplicaciones web","Aplicaciones moviles","Gestores de contenido","Desarrollo de software","Software a la medida"]}
                             url="https://wa.link/ih4iog" button="Chateemos!"/>
                         <ServicesItemComponent
                             title="Diseño UX/UI"
-                            description="Creamos experiencias de usuario que conectan con tu audiencia, diseñamos interfaces que sean atractivas y funcionales alineadas a tu marca."
+                            description="Nuestro equipo te ayudará a desarrollar una interfaz atractiva y entendible que cumpla con tus metas, te ayude a alcanzar tus objetivos y permita al usuario final recorrer de manera amigable tu aplicación."
                             subtitle="Servicios"
                             services={["Experiencia de usuario","Desarrollo de interfaz de usuario","Diseño de aplicaciones","Diseño de sitios web","Diseño de aplicaciones moviles"]}
                             url="https://wa.link/ih4iog" button="Chateemos!"/>
                     </div>
                 </section>
                 <section className="mt-10 mb-28 w-full" id="portafolio">
-                    <h2 className="font-clash text-2xl md:text-5xl text-center text-white font-semibold">Nuestro
+                    <h2 className="font-clash text-2xl md:text-5xl text-center text-white font-semibold uppercase">Nuestro
                         portafolio</h2>
                     <p className="text-center font-switzer text-white">Todos los proyectos nacen de una idea y todas las
                         ideas tienen una historia para contar</p>
                     <GalleryPortafolioComponent/>
-                    <h2 className="font-clash text-2xl md:text-5xl text-center text-white font-semibold md:hidden">Nuestros Clientes</h2>
+                    <h2 className="font-clash text-2xl md:text-5xl text-center text-white font-semibold md:hidden uppercase">Nuestros Clientes</h2>
                     <h3 className="text-center font-clash text-white mb-10 md:mt-5 md:mb-10 md:font-semibold md:text-2xl ">Ellos hán confiado
                         en nosotros:</h3>
                     <div className="flex gap-10 md:gap-10 justify-center items-center">
@@ -105,14 +107,14 @@ const Home = () =>{
                             alt="" width={"140"}/>
                     </div>
                 </section>
-                <section className="mt-5 mb-28 w-full">
-                    <h2 className="font-clash text-2xl md:text-5xl text-center text-white font-semibold mb-10">Envianos un mensaje!</h2>
+                <section className="mt-5 mb-10 w-full">
+                    <h2 className="font-clash text-2xl md:text-5xl text-center text-white font-semibold mb-10 uppercase">Envianos un mensaje!</h2>
                     <HabilitysTeamComponent
                         name="Roberto Aceves"
-                        description="Desarrollador de software y diseñador de interfaces, me especializo en el desarrollo de aplicaciones web y moviles, me encanta el diseño y la experiencia de usuario."
+                        description="Soy Roberto Aceves, Me gusta programar y me apasiona la tecnología, ¿Cómo puedo ayudarte?"
                         img="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/users/perfil.jpg"
                         link="https://wa.link/ih4iog"
-                        habilitys={['Astro.build', 'Javascript', 'PHP', 'Python', 'HTML', 'CSS', 'Tailwind', 'Bootstrap', 'AWS', 'NODE.JS', 'REACT', 'VUE.JS', 'laravel', 'Django', 'GitHub', 'Supabase', 'Vercel']}/>
+                        habilitys={['Astro.build', 'Javascript', 'PHP', 'Python', 'HTML', 'CSS', 'Tailwind', 'Bootstrap', 'AWS', 'NODE.JS', 'REACT', 'VUE.JS', 'laravel', 'Django', 'GitHub', 'Supabase', 'Vercel','React Native']}/>
                 </section>
             </div>
         </Layout>
