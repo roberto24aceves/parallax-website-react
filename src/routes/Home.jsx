@@ -108,13 +108,22 @@ const Home = () =>{
                     </div>
                 </section>
                 <section className="mt-5 mb-10 w-full">
-                    <h2 className="font-clash text-2xl md:text-5xl text-center text-white font-semibold mb-10 uppercase">Envianos un mensaje!</h2>
-                    <HabilitysTeamComponent
-                        name="Roberto Aceves"
-                        description="Soy Roberto Aceves, Me gusta programar y me apasiona la tecnología, ¿Cómo puedo ayudarte?"
-                        img="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/users/perfil.jpg"
-                        link="https://wa.link/ih4iog"
-                        habilitys={['Astro.build', 'Javascript', 'PHP', 'Python', 'HTML', 'CSS', 'Tailwind', 'Bootstrap', 'AWS', 'NODE.JS', 'REACT', 'VUE.JS', 'laravel', 'Django', 'GitHub', 'Supabase', 'Vercel','React Native']}/>
+                    <h2 className="font-clash text-2xl md:text-5xl text-center text-white font-semibold mb-10 uppercase">Trabajemos juntos!</h2>
+                    <div className="flex flex-col justify-center items-center gap-5">
+                        <HabilitysTeamComponent
+                            name="Roberto Aceves"
+                            description="Full Stack Developer"
+                            img="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/users/perfil.jpg"
+                            link="https://wa.link/ih4iog"
+                            habilitys={['Astro.build', 'Javascript', 'PHP', 'Python', 'HTML', 'CSS', 'Tailwind', 'Bootstrap', 'AWS', 'NODE.JS', 'REACT', 'VUE.JS', 'Laravel', 'Django', 'GitHub', 'Supabase', 'Vercel','React Native','SQL','PostgresSQL',]}/>
+                        <HabilitysTeamComponent
+                            name="Carlos Aguero"
+                            description="Full Stack Developer"
+                            img="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/users/carlos_aguero.jpeg?t=2024-07-03T18%3A50%3A12.995Z"
+                            link="https://wa.link/ih4iog"
+                            habilitys={['.NET','Javascript', 'PHP', 'Angular', 'HTML', 'CSS', 'Azure', 'Bootstrap', 'AWS', 'NODE.JS', 'C#', 'Laravel', 'Unity', 'GitHub', 'Firebase', 'ASP.NET','SQL','PostgresSQL','MongoDB']}/>
+
+                    </div>
                 </section>
             </div>
         </Layout>
