@@ -37,7 +37,7 @@ const ContactForm = ({whatsapp}) => {
         )
     }
     const handleSendEmail = async () => {
-        const response = await fetch("https://metrikads-api-ten.vercel.app/send", {
+        const response = await fetch("https://parallax-api.vercel.app/send", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
