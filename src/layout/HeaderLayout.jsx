@@ -2,7 +2,7 @@ import images from "../images.jsx";
 const HeaderLayout = () => {
 
     return (
-        <div>
+        <div className="sticky top-0 z-40 backdrop-blur">
             <header className="container py-5">
                 <div className="flex justify-between items-center px-4 md:px-16">
                     <a href={"https://parallax.lat"}>

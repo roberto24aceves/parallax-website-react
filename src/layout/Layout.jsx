@@ -6,7 +6,7 @@ import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const Layout = ({children }) => {
     return(
-        <div className="w-full px-0 overflow-x-hidden relative">
+        <div className="w-full px-0 relative">
             <HeaderLayout/>
             {children}
             <Analytics />

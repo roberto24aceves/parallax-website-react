@@ -169,7 +169,7 @@ const Index = () =>{
                     <h3 className="font-clash font-black text-3xl text-center md:text-[50px] lg:text-[60px] text-pllx-white uppercase leading-tight">
                         ¡Chateemos!
                     </h3>
-                    <ContactForm whatsapp={"#"}/>
+                    <ContactForm whatsapp={"https://wa.link/i94sni"}/>
                 </div>
                 <FooterLayout/>
             </section>

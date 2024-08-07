@@ -7,7 +7,7 @@ import { FaCheck } from "react-icons/fa6";
 
 
 
-const ContactForm = () => {
+const ContactForm = ({whatsapp}) => {
     const [name, setName] = useState("")
     const [phone, setPhone] = useState("")
     const [email, setEmail] = useState("")
@@ -102,8 +102,12 @@ const ContactForm = () => {
                 </span>
             <div className="w-full flex flex-row gap-3">
                 <button onClick={handleSubmit}
-                        className="bg-pllx-theme hover:bg-pllx-gray-light transition-all duration-200 ease-out text-pllx-gray-dark font-clash font-black uppercase py-3 px-8 rounded-full inline-block w-full md:w-fit">Enviar
+                        className="bg-pllx-gray-light hover:bg-pllx-theme transition-all duration-200 ease-out text-pllx-gray-dark font-clash font-black uppercase py-3 px-8 rounded-full inline-block w-full md:w-fit">Enviar
                 </button>
+                <a target="_blank" href={whatsapp}
+                        className="bg-pllx-accent hover:bg-pllx-theme transition-all duration-200 ease-out text-pllx-gray-dark font-clash font-black uppercase py-3 px-8 rounded-full inline-block w-full md:w-fit">
+                    Whatsapp
+                </a>
             </div>
         </form>
     )

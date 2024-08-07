@@ -76,15 +76,15 @@
         @apply cursor-pointer bg-pllx-black text-white hover:text-pllx-gray-dark font-switzer text-base hover:bg-pllx-gray-light px-4 py-2 rounded-full;
     }
     input{
-        @apply bg-pllx-gray-dark border border-pllx-t-20 rounded-full py-3 px-4 font-clash;
+        @apply bg-pllx-gray-dark border border-pllx-t-20 text-white rounded-full py-3 px-4 font-clash;
     }
     textarea{
-        @apply bg-pllx-gray-dark border border-pllx-t-20 rounded-2xl py-3 px-4 font-clash;
+        @apply bg-pllx-gray-dark border border-pllx-t-20 text-white rounded-2xl py-3 px-4 font-clash;
     }
     input::placeholder, textarea::placeholder{
         @apply text-white
     }
-    input:focus{
+    input:focus, textarea:focus{
         @apply outline-pllx-theme
     }
 }
