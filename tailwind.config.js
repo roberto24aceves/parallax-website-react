@@ -10,13 +10,17 @@ export default {
     },
     extend: {
       colors:{
-        'pllx-white': '#F0F3FF',
-        'pllx-gray-light': '#e1e1e1',
-        'pllx-gray': '#102B3F',
-        'pllx-gray-dark': '#062726',
+        'pllx-t-20': 'rgba(255, 255, 255, 0.2)',
+        'pllx-t-30': 'rgba(255, 255, 255, 0.3)',
+        'pllx-t-40': 'rgba(255, 255, 255, 0.4)',
+        'pllx-white': '#FFFFFF',
+        'pllx-gray-light': '#E7E7D8',
+        'pllx-gray': '#AFAC95',
+        'pllx-gray-dark': '#1E1E1E',
         'pllx-black': '#181818',
-        'pllx-theme':'#BBFF00',
-        'pllx-accent':'#95FF14',
+        'pllx-theme':'#EA4125',
+        'pllx-accent':'#F8B002',
+        'pllx-accent-two':'#FF7317',
       },
       fontFamily:{
           'switzer': 'Switzer',

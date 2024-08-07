@@ -9,11 +9,15 @@ const TextScrollComponent = ({text}) =>{
         return (items);
     }
     return(
-        <div className="flex flex-col items-center justify-center h-[200px] overflow-hidden">
-            <div className="py-3 px-10 bg-pllx-theme rotate-2 w-[4000px] h-fit">
+        <div className="flex flex-col items-center justify-center overflow-hidden">
+            <div className="py-3 px-10 bg-pllx-gray-dark w-[4000px] h-fit border-t border-b border-pllx-t-30">
                 <motion.div style={{x:scrollY}} transition={{type:'spring'}} className="flex justify-end gap-5">
                     {elements().map((item,index)=>(
-                        <div key={index} className="min-w-fit text-pllx-gray-dark font-clash font-bold uppercase text-center">{item}</div>
+                        <>
+                            <div key={index}
+                                 className="min-w-fit text-pllx-gray-light font-clash font-bold uppercase text-center">{item}</div>
+                            <img src="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/assets/pllx-cross.svg" alt=""/>
+                        </>
                     ))}
                 </motion.div>
             </div>
