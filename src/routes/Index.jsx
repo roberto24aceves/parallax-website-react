@@ -28,7 +28,7 @@ const Index = () =>{
                     </h2>
                     <div className="flex flex-col lg:flex-row justify-center lg:items-center relative gap-10">
                         <img className="w-full md:w-[400px] lg:w-[800px]"
-                             src="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/lmm_preview.png"
+                             src="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/assets/lmm_preview.png"
                              alt=""/>
                         <div className="lg:absolute w-full flex flex-col md:flex-row justify-center lg:justify-between gap-4">
                             <div

@@ -29,12 +29,20 @@
         background: url("https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/assets/pllx-texture-radial.png") center center / 650px no-repeat;
     }
     .about{
-        background: url("https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/assets/pllx-texture-malla.png") center center repeat;
+        background: url("https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/assets/texture-maya-fix.png") center center repeat;
     }
     .projects{
         background: url("https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/assets/pllx-img-cassete.png") 900px -5% / 1000px no-repeat,
                     url("https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/assets/pllx-texture-radial-red.png") -10% 50% / 650px no-repeat,
                     url("https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/assets/pllx-texture-radial-red.png") 110% 90% / 650px no-repeat;
+    }
+
+    @media(min-width: 2300px){
+        .projects{
+            background: url("https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/assets/pllx-img-cassete.png") 1400px 0% / 950px no-repeat,
+            url("https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/assets/pllx-texture-radial-red.png") -30% 50% / 850px no-repeat,
+            url("https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/assets/pllx-texture-radial-red.png") 130% 100% / 850px no-repeat;
+        }
     }
     @media(max-width: 1024px){
         .projects{
