@@ -29,7 +29,8 @@
         background: url("https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/assets/pllx-texture-radial.png") center center / 650px no-repeat;
     }
     .about{
-        background: url("https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/assets/texture-maya-fix.png") center center repeat;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.2) 2px, transparent 2px), linear-gradient(to right, rgba(255, 255, 255, 0.2) 2px, transparent 2px);
+        background-size: 10px 10px;
     }
     .projects{
         background: url("https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/assets/pllx-img-cassete.png") 900px -5% / 1000px no-repeat,
