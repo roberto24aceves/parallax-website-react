@@ -1,23 +1,5 @@
 const portfolio = [
     {
-        name: "Permanex",
-        img: "https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/permanex.png",
-        extract : "Diseño UX/UI / Desarrollo web.",
-        url: "",
-        cartegory: [
-            "ux/ui","web_desing","web_development"
-        ]
-    },
-    {
-        name: "San Geronimo",
-        img: "https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/san-geronimo.jpg",
-        extract : "Diseño UX/UI / Desarrollo web.",
-        url: "",
-        cartegory: [
-            "ux/ui","web_desing",
-        ]
-    },
-    {
         name: "Latin Media Monitor",
         img: "https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/latin_media_monitor.jpg",
         extract : "Diseño UX/UI / Desarrollo web / SEO.",
@@ -38,7 +20,7 @@ const portfolio = [
     {
         name: "Yaaxtal",
         img: "https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/yaaxtal.jpg",
-        extract : "Desarrollo web.",
+        extract : "Desarrollo web (Programación - implementación)",
         url: "https://merida.gob.mx/yaaxtal/",
         cartegory: [
             "web_development"
@@ -65,10 +47,28 @@ const portfolio = [
     {
         name: "Parallax",
         img: "https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/parallax-mockup-movil.jpg",
-        extract : "Desarrollo web.",
+        extract : "Diseño UX/UI / Desarrollo web.",
         url: "https://parallax.lat",
         cartegory: [
             "ux/ui","web_desing","web_development"
+        ]
+    },
+    {
+        name: "Circulo47",
+        img: "https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/circulo47.jpg",
+        extract : "Desarrollo web (Programación - implementación).",
+        url: "https://www.merida.gob.mx/circulo47",
+        cartegory: [
+            "web_development"
+        ]
+    },
+    {
+        name: "Instituto de la mujer",
+        img: "https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/instituto-de-la-mujer.jpg",
+        extract : "Desarrollo web (Programación - implementación)",
+        url: "https://www.merida.gob.mx/mujer",
+        cartegory: [
+            "web_development"
         ]
     }
 ]
