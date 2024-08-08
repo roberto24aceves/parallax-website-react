@@ -23,7 +23,8 @@ const GalleryPortafolioComponent = () =>{
                                     img={item.img}
                                     url={item.url}
                                     title={item.name}
-                                    extract={item.extract}/>
+                                    extract={item.extract}
+                                    user={item.user}/>
                             )
                         }else{
                             if(item.cartegory.includes(filter)){

@@ -1,8 +1,8 @@
 import images from "../../images.jsx";
 import {motion} from "framer-motion";
 import {MdArrowOutward} from "react-icons/md";
-
-const GalleryPortafolioItemComponent = ({title,extract,img,url}) =>{
+import AvatarCircles from "../AvatarCircles.tsx"
+const GalleryPortafolioItemComponent = ({title,extract,img,url,user}) =>{
     const Url = ({url}) =>{
         return (
             <a href={url}
@@ -23,6 +23,7 @@ const GalleryPortafolioItemComponent = ({title,extract,img,url}) =>{
                 <p className="text-white font-switzer text-base">
                     {extract}
                 </p>
+                <AvatarCircles avatarUrls={user}/>
             </div>
         </motion.div>
     )

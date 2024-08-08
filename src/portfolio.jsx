@@ -6,6 +6,12 @@ const portfolio = [
         url: "https://latinmediamonitor.com/    ",
         cartegory: [
             "ux/ui","web_desing","web_development","seo"
+        ],
+        user:[
+            {
+                name:"Roberto Aceves",
+                img:"https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/users/roberto_aceves.jpg"
+            },
         ]
     },
     {
@@ -15,6 +21,12 @@ const portfolio = [
         url: "https://bellakeofest.vercel.app/",
         cartegory: [
             "ux/ui","web_desing","web_development"
+        ],
+        user:[
+            {
+                name:"Roberto Aceves",
+                img:"https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/users/roberto_aceves.jpg"
+            },
         ]
     },
     {
@@ -24,6 +36,12 @@ const portfolio = [
         url: "https://merida.gob.mx/yaaxtal/",
         cartegory: [
             "web_development"
+        ],
+        user:[
+            {
+                name:"Roberto Aceves",
+                img:"https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/users/roberto_aceves.jpg"
+            },
         ]
     },
     {
@@ -33,6 +51,16 @@ const portfolio = [
         url: "https://www.atletastudio.com/",
         cartegory: [
             "ux/ui","web_desing","web_development"
+        ],
+        user:[
+            {
+                name:"Roberto Aceves",
+                img:"https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/users/roberto_aceves.jpg"
+            },
+            {
+                name:"Carlos Aguero",
+                img:"https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/users/carlos_aguero.jpeg"
+            }
         ]
     },
     {
@@ -42,6 +70,16 @@ const portfolio = [
         url: "https://www.metrikads.com.mx",
         cartegory: [
             "ux/ui","web_desing","web_development"
+        ],
+        user:[
+            {
+                name:"Roberto Aceves",
+                img:"https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/users/roberto_aceves.jpg"
+            },
+            {
+                name:"Carlos Aguero",
+                img:"https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/users/carlos_aguero.jpeg"
+            }
         ]
     },
     {
@@ -51,6 +89,16 @@ const portfolio = [
         url: "https://parallax.lat",
         cartegory: [
             "ux/ui","web_desing","web_development"
+        ],
+        user:[
+            {
+                name:"Roberto Aceves",
+                img:"https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/users/roberto_aceves.jpg"
+            },
+            {
+                name:"Carlos Aguero",
+                img:"https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/users/carlos_aguero.jpeg"
+            }
         ]
     },
     {
@@ -60,6 +108,12 @@ const portfolio = [
         url: "https://www.merida.gob.mx/circulo47",
         cartegory: [
             "web_development"
+        ],
+        user:[
+            {
+                name:"Roberto Aceves",
+                img:"https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/users/roberto_aceves.jpg"
+            },
         ]
     },
     {
@@ -69,6 +123,12 @@ const portfolio = [
         url: "https://www.merida.gob.mx/mujer",
         cartegory: [
             "web_development"
+        ],
+        user:[
+            {
+                name:"Roberto Aceves",
+                img:"https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/users/roberto_aceves.jpg"
+            },
         ]
     }
 ]
