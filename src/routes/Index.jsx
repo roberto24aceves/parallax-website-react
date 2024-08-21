@@ -5,6 +5,7 @@ import { MdArrowOutward } from "react-icons/md";
 import GalleryPortafolioComponent from "../components/GalleryPortafolioComponent.jsx";
 import FooterLayout from "../layout/FooterLayout.jsx";
 import ContactForm from "../layout/ContactForm.jsx";
+import LazyImg from "../layout/LazyImg.jsx";
 
 const Index = () =>{
     return(
@@ -27,9 +28,8 @@ const Index = () =>{
                         ¿Quienes somos?
                     </h2>
                     <div className="flex flex-col lg:flex-row justify-center lg:items-center relative gap-10">
-                        <img className="w-full md:w-[400px] lg:w-[800px]"
-                             src="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/assets/lmm_preview.png"
-                             alt=""/>
+                        <LazyImg className={"w-full md:w-[400px] lg:w-[800px]"} src="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/assets/lmm_preview.png"
+                                 alt="Latin Media Monitor"/>
                         <div className="lg:absolute w-full flex flex-col md:flex-row justify-center lg:justify-between gap-4">
                             <div
                                 className="md:max-w-[350px] lg:mb-[300px] bg-pllx-gray-dark border border-pllx-gray-light text-pllx-gray-light p-5 flex flex-col gap-2">
