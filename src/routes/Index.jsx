@@ -23,13 +23,13 @@ const Index = () =>{
                     comerciales.
                 </p>
                 <div className="flex items-center md:justify-center gap-2 flex-wrap">
-                    <a className="rounded-full bg-pllx-accent text-pllx-gray-dark font-clash uppercase font-bold py-3 px-5"
+                    <a className="rounded-full bg-pllx-accent hover:bg-pllx-gray-light transition duration-300 ease-out text-pllx-gray-dark font-clash uppercase font-bold py-3 px-5"
                        target="_blank"
                        href="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/parallax-servicios.pdf">
                         Descargar Brochure
                     </a>
                     <a
-                        className="rounded-full bg-[#0057ff] text-white font-clash uppercase font-semibold py-3 px-5"
+                        className="rounded-full bg-[#0057ff] hover:bg-white hover:text-[#0057ff] text-white transition duration-300 ease-out font-clash uppercase font-bold py-3 px-5"
                         href="https://www.behance.net/robertoaceves">
                         Go to Behance
                     </a>
