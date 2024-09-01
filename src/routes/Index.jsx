@@ -166,7 +166,18 @@ const Index = () =>{
                                 <p>Diseño de aplicaciones</p>
                             </div>
                         </div>
-
+                    </div>
+                    <div className="flex items-center md:justify-center gap-2 flex-wrap">
+                        <a className="rounded-full bg-pllx-gray-light hover:bg-pllx-theme transition duration-300 ease-out text-pllx-gray-dark font-clash uppercase font-bold py-3 px-5"
+                           target="_blank"
+                           href="https://services.parallax.lat/">
+                            Ver mas servicios
+                        </a>
+                        <a
+                            className="rounded-full bg-pllx-accent hover:bg-pllx-gray-light hover:text-pllx-gray-dark text-white transition duration-300 ease-out font-clash uppercase font-bold py-3 px-5"
+                            href="#contacto">
+                            Cotizar proyecto
+                        </a>
                     </div>
                 </div>
             </section>
