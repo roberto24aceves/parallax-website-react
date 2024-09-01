@@ -6,10 +6,12 @@ import GalleryPortafolioComponent from "../components/GalleryPortafolioComponent
 import FooterLayout from "../layout/FooterLayout.jsx";
 import ContactForm from "../layout/ContactForm.jsx";
 import LazyImg from "../layout/LazyImg.jsx";
+import {ToastContainer} from "react-toastify";
 
 const Index = () =>{
     return(
         <Layout>
+            <ToastContainer />
             <section id="banner" className="banner container px-5 lg:px-0 h-[700px] flex flex-col justify-center items-center w-full gap-5">
                 <h1 className="font-clash font-black text-3xl md:text-[50px] lg:text-[60px] text-pllx-gray-light uppercase md:text-center leading-tight">
                     ¡Somos el equipo de <span className="text-pllx-theme">programación</span> que tu proyecto necesita!

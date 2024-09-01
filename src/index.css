@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+    --toastify-text-color-light: #181818;
+    --toastify-text-color-dark: #181818;
+}
 @layer components{
     /*General Elements*/
     body::-webkit-scrollbar{
