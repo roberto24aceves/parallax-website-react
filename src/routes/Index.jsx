@@ -22,15 +22,27 @@ const Index = () =>{
                     tecnologías y con las mejores prácticas para que puedas alcanzar con eficacia tus objetivos
                     comerciales.
                 </p>
+                <div className="flex items-center md:justify-center gap-2 flex-wrap">
+                    <a className="rounded-full bg-pllx-accent text-pllx-gray-dark font-clash uppercase font-bold py-3 px-5"
+                       target="_blank"
+                       href="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/parallax-servicios.pdf">
+                        Descargar Brochure
+                    </a>
+                    <a
+                        className="rounded-full bg-[#0057ff] text-white font-clash uppercase font-semibold py-3 px-5"
+                        href="https://www.behance.net/robertoaceves">
+                        Go to Behance
+                    </a>
+                </div>
             </section>
-            <TextScrollComponent text={"PARALLAX"} />
+            <TextScrollComponent text={"PARALLAX"}/>
             <section className="about border-b border-pllx-t-40 py-10 px-5 md:pt-24 md:pb-20 lg:pt-32 lg:pb-28">
                 <div className="container grid gap-10">
                     <h2 className="bg-pllx-theme text-pllx-gray-dark font-clash font-black uppercase py-3 px-8 rounded-full inline-block w-fit">
                         ¿Quienes somos?
                     </h2>
                     <div className="flex flex-col lg:flex-row justify-center lg:items-center relative gap-10">
-                        <LazyImg className={"w-full md:w-[400px] lg:w-[800px]"} src="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/assets/lmm_preview.png"
+                    <LazyImg className={"w-full md:w-[400px] lg:w-[800px]"} src="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/assets/lmm_preview.png"
                                  alt="Latin Media Monitor"/>
                         <div className="lg:absolute w-full flex flex-col md:flex-row justify-center lg:justify-between gap-4">
                             <div
