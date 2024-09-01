@@ -26,11 +26,11 @@ const Index = () =>{
                 <div className="flex items-center md:justify-center gap-2 flex-wrap">
                     <a className="rounded-full bg-pllx-accent hover:bg-pllx-gray-light transition duration-300 ease-out text-pllx-gray-dark font-clash uppercase font-bold py-3 px-5"
                        target="_blank"
-                       href="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/parallax-servicios.pdf">
+                       href="https://yxkdixicvsbupkvzjozk.supabase.co/storage/v1/object/public/parallax_public/parallax-services.pdf">
                         Descargar Brochure
                     </a>
                     <a
-                        className="flex justify-center items-center gap-2 rounded-full hover:text-[#0057ff] text-white transition duration-300 ease-out font-clash uppercase font-bold py-3 px-5"
+                        className="flex justify-center items-center gap-2 rounded-full hover:text-[#0057ff] text-white transition duration-300 ease-out font-clash uppercase font-semibold py-3 px-5"
                         href="https://www.behance.net/robertoaceves">
                         Go to Behance
                         <IoArrowForwardSharp size={20}/>
@@ -176,9 +176,10 @@ const Index = () =>{
                             Ver más servicios
                         </a>
                         <a
-                            className="rounded-full bg-pllx-accent hover:bg-pllx-gray-light text-pllx-gray-dark transition duration-300 ease-out font-clash uppercase font-bold py-3 px-5"
+                            className="flex justify-center items-center gap-2 rounded-full hover:text-pllx-theme text-white transition duration-300 ease-out font-clash uppercase font-semibold py-3 px-5"
                             href="#contacto">
                             Cotizar proyecto
+                            <IoArrowForwardSharp size={20}/>
                         </a>
                     </div>
                 </div>
