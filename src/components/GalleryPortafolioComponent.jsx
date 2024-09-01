@@ -29,7 +29,7 @@ const GalleryPortafolioComponent = () =>{
                 <button className="portfolio-nav" onClick={() => setFilter("web_development")}>Desarrollo Web</button>
                 <button className="portfolio-nav" onClick={() => setFilter("ux/ui")}>UX/UI</button>
                 <button className="portfolio-nav" onClick={() => setFilter("seo")}>SEO</button>
-                <button className="portfolio-nav bg-[#0057ff] flex justify-center items-center gap-2 hover:bg-white hover:text-[#0057ff] focus-visible:bg-white focus-visible:text-[#0057ff]" onClick={handleToBehance}>Go to Behance <IoArrowForwardSharp />
+                <button className="portfolio-nav bg-[#0057ff] flex justify-center items-center gap-2 hover:bg-white hover:text-[#0057ff] focus-visible:bg-white focus-visible:text-[#0057ff]" onClick={handleToBehance}>Go to Behance <IoArrowForwardSharp size={20} />
                 </button>
             </div>
             <div className="flex flex-wrap justify-start">

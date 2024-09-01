@@ -7,6 +7,7 @@ import FooterLayout from "../layout/FooterLayout.jsx";
 import ContactForm from "../layout/ContactForm.jsx";
 import LazyImg from "../layout/LazyImg.jsx";
 import {ToastContainer} from "react-toastify";
+import {IoArrowForwardSharp} from "react-icons/io5";
 
 const Index = () =>{
     return(
@@ -29,9 +30,10 @@ const Index = () =>{
                         Descargar Brochure
                     </a>
                     <a
-                        className="rounded-full bg-[#0057ff] hover:bg-white hover:text-[#0057ff] text-white transition duration-300 ease-out font-clash uppercase font-bold py-3 px-5"
+                        className="flex justify-center items-center gap-2 rounded-full hover:text-[#0057ff] text-white transition duration-300 ease-out font-clash uppercase font-bold py-3 px-5"
                         href="https://www.behance.net/robertoaceves">
                         Go to Behance
+                        <IoArrowForwardSharp size={20}/>
                     </a>
                 </div>
             </section>
@@ -171,10 +173,10 @@ const Index = () =>{
                         <a className="rounded-full bg-pllx-gray-light hover:bg-pllx-theme transition duration-300 ease-out text-pllx-gray-dark font-clash uppercase font-bold py-3 px-5"
                            target="_blank"
                            href="https://services.parallax.lat/">
-                            Ver mas servicios
+                            Ver más servicios
                         </a>
                         <a
-                            className="rounded-full bg-pllx-accent hover:bg-pllx-gray-light hover:text-pllx-gray-dark text-white transition duration-300 ease-out font-clash uppercase font-bold py-3 px-5"
+                            className="rounded-full bg-pllx-accent hover:bg-pllx-gray-light text-pllx-gray-dark transition duration-300 ease-out font-clash uppercase font-bold py-3 px-5"
                             href="#contacto">
                             Cotizar proyecto
                         </a>
