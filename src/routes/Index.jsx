@@ -30,7 +30,7 @@ const Index = () =>{
                         Descargar Brochure
                     </a>
                     <a
-                        className="flex justify-center items-center gap-2 rounded-full hover:text-[#0057ff] text-white transition duration-300 ease-out font-clash uppercase font-semibold py-3 px-5"
+                        className="flex justify-center items-center gap-2 rounded-full hover:text-[#0057ff] text-white transition duration-300 ease-out font-clash uppercase font-semibold py-3 px-5 border border-white mt-2 md:border-none md:mt-0"
                         href="https://www.behance.net/robertoaceves">
                         Go to Behance
                         <IoArrowForwardSharp size={20}/>
@@ -176,7 +176,7 @@ const Index = () =>{
                             Más información
                         </a>
                         <a
-                            className="flex justify-center items-center gap-2 rounded-full hover:text-pllx-theme text-white transition duration-300 ease-out font-clash uppercase font-semibold py-3 px-5"
+                            className="flex justify-center items-center gap-2 rounded-full hover:text-pllx-theme text-white transition duration-300 ease-out font-clash uppercase font-semibold py-3 px-5 border border-white mt-2 md:border-none md:mt-0"
                             href="#contacto">
                             Cotizar proyecto
                             <IoArrowForwardSharp size={20}/>
