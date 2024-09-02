@@ -173,7 +173,7 @@ const Index = () =>{
                         <a className="rounded-full bg-pllx-gray-light hover:bg-pllx-theme transition duration-300 ease-out text-pllx-gray-dark font-clash uppercase font-bold py-3 px-5"
                            target="_blank"
                            href="https://services.parallax.lat/">
-                            Ver más servicios
+                            Más información
                         </a>
                         <a
                             className="flex justify-center items-center gap-2 rounded-full hover:text-pllx-theme text-white transition duration-300 ease-out font-clash uppercase font-semibold py-3 px-5"
